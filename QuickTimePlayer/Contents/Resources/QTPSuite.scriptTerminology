@@ -1,0 +1,3259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>QuickTimeProInstalled</key>
+				<dict>
+					<key>Description</key>
+					<string>is the pro version of QuickTime installed?</string>
+					<key>Name</key>
+					<string>QuickTime Pro installed</string>
+				</dict>
+				<key>QuickTimeVersion</key>
+				<dict>
+					<key>Description</key>
+					<string>the version of the installed QuickTime</string>
+					<key>Name</key>
+					<string>QuickTime version</string>
+				</dict>
+				<key>ignoreAutoPlay</key>
+				<dict>
+					<key>Description</key>
+					<string>ignore requests to auto-play movies upon opening?</string>
+					<key>Name</key>
+					<string>ignore auto play</string>
+				</dict>
+				<key>ignoreAutoPresent</key>
+				<dict>
+					<key>Description</key>
+					<string>ignore requests to auto-present movies upon opening?</string>
+					<key>Name</key>
+					<string>ignore auto present</string>
+				</dict>
+				<key>onlyFrontMoviePlaysSound</key>
+				<dict>
+					<key>Description</key>
+					<string>should only sound of front movie be played?</string>
+					<key>Name</key>
+					<string>only front movie plays sound</string>
+				</dict>
+				<key>openMovieInNewPlayer</key>
+				<dict>
+					<key>Description</key>
+					<string>should movies be opened in separate windows?</string>
+					<key>Name</key>
+					<string>open movie in new player</string>
+				</dict>
+				<key>playMovieFromBeginningWhenOpened</key>
+				<dict>
+					<key>Description</key>
+					<string>should movies auto-play when opened?</string>
+					<key>Name</key>
+					<string>play movie from beginning when opened</string>
+				</dict>
+				<key>playSoundInBackground</key>
+				<dict>
+					<key>Description</key>
+					<string>should sound of background movies be played?</string>
+					<key>Name</key>
+					<string>play sound in background</string>
+				</dict>
+				<key>showAvControlsWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>show/hide the a/v controls window</string>
+					<key>Name</key>
+					<string>show av controls window</string>
+				</dict>
+				<key>showClosedCaptioningWhenAvailable</key>
+				<dict>
+					<key>Description</key>
+					<string>show closed captioning (when supported by content)</string>
+					<key>Name</key>
+					<string>show closed captioning when available</string>
+				</dict>
+				<key>showEqualizer</key>
+				<dict>
+					<key>Description</key>
+					<string>should equalizer be displayed for audio content</string>
+					<key>Name</key>
+					<string>show equalizer</string>
+				</dict>
+				<key>showFavoritesWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>show the favorites window</string>
+					<key>Name</key>
+					<string>show favorites window</string>
+				</dict>
+				<key>showMovieInfoWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>show the movie info window</string>
+					<key>Name</key>
+					<string>show movie info window</string>
+				</dict>
+				<key>showTimecodeWhenAvailable</key>
+				<dict>
+					<key>Description</key>
+					<string>show timecode (when supported by content)</string>
+					<key>Name</key>
+					<string>show timecode when available</string>
+				</dict>
+				<key>showWelcomeMovieAutomatically</key>
+				<dict>
+					<key>Description</key>
+					<string>always show the Content Guide when application launches</string>
+					<key>Name</key>
+					<string>show welcome movie automatically</string>
+				</dict>
+				<key>suspendPlayingMoviesOnUserSwitch</key>
+				<dict>
+					<key>Description</key>
+					<string>should playing movies be suspended when switching to a different user</string>
+					<key>Name</key>
+					<string>suspend playing movies on user switch</string>
+				</dict>
+				<key>useHighQualityVideoSettingWhenAvailable</key>
+				<dict>
+					<key>Description</key>
+					<string>use high-quality video playback when available</string>
+					<key>Name</key>
+					<string>use high quality video setting when available</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>The QuickTime Player application program</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>Palette</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>the contents of the matrix</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A palette</string>
+			<key>Name</key>
+			<string>palette</string>
+			<key>PluralName</key>
+			<string>palettes</string>
+		</dict>
+		<key>QTHotspot</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>enabled</key>
+				<dict>
+					<key>Description</key>
+					<string>is the hotspot enabled?</string>
+					<key>Name</key>
+					<string>enabled</string>
+				</dict>
+				<key>hotspotType</key>
+				<dict>
+					<key>Description</key>
+					<string>the kind of hotspot</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>index</key>
+				<dict>
+					<key>Description</key>
+					<string>the index of the hotspot</string>
+					<key>Name</key>
+					<string>index</string>
+				</dict>
+				<key>link</key>
+				<dict>
+					<key>Description</key>
+					<string>the link of the hotspot</string>
+					<key>Name</key>
+					<string>link</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the hotspot</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>uniqueID</key>
+				<dict>
+					<key>Description</key>
+					<string>the unique id of the hotspot</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A hotspot in a QuickTime VR movie</string>
+			<key>Name</key>
+			<string>hotspot</string>
+			<key>PluralName</key>
+			<string>hotspots</string>
+		</dict>
+		<key>QTNode</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>index</key>
+				<dict>
+					<key>Description</key>
+					<string>the index of the node</string>
+					<key>Name</key>
+					<string>index</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the node</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>nodeType</key>
+				<dict>
+					<key>Description</key>
+					<string>the kind of node</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>uniqueID</key>
+				<dict>
+					<key>Description</key>
+					<string>the unique identifier of the node</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A node in a QuickTime VR movie</string>
+			<key>Name</key>
+			<string>node</string>
+			<key>PluralName</key>
+			<string>nodes</string>
+		</dict>
+		<key>QTPCaptureDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>state</key>
+				<dict>
+					<key>Description</key>
+					<string>state of the recording</string>
+					<key>Name</key>
+					<string>state</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A recording document</string>
+			<key>Name</key>
+			<string>recording</string>
+			<key>PluralName</key>
+			<string>recordings</string>
+		</dict>
+		<key>QTPModelAnnotation</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>annotationId</key>
+				<dict>
+					<key>Description</key>
+					<string>the ID of the annotation</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+				<key>fullText</key>
+				<dict>
+					<key>Description</key>
+					<string>the text of the annotation</string>
+					<key>Name</key>
+					<string>full text</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the annotation</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>An annotation in a QuickTime movie</string>
+			<key>Name</key>
+			<string>annotation</string>
+			<key>PluralName</key>
+			<string>annotations</string>
+		</dict>
+		<key>QTPModelChapter</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the chapter</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A reference to a chapter in a QuickTime movie.</string>
+			<key>Name</key>
+			<string>chapter</string>
+			<key>PluralName</key>
+			<string>chapters</string>
+		</dict>
+		<key>QTPModelFavorite</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>category</key>
+				<dict>
+					<key>Description</key>
+					<string>the category of the favorite</string>
+					<key>Name</key>
+					<string>category</string>
+				</dict>
+				<key>kind</key>
+				<dict>
+					<key>Description</key>
+					<string>the kind of the favorite</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the favorite</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A reference to a QuickTime movie</string>
+			<key>Name</key>
+			<string>favorite</string>
+			<key>PluralName</key>
+			<string>favorites</string>
+		</dict>
+		<key>QTPModelFrame</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>the contents of the frame (deprecated - use 'sample data' instead)</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+				<key>duration</key>
+				<dict>
+					<key>Description</key>
+					<string>the duration of the frame</string>
+					<key>Name</key>
+					<string>duration</string>
+				</dict>
+				<key>index</key>
+				<dict>
+					<key>Description</key>
+					<string>the index of the frame</string>
+					<key>Name</key>
+					<string>index</string>
+				</dict>
+				<key>time</key>
+				<dict>
+					<key>Description</key>
+					<string>the time at which the frame starts</string>
+					<key>Name</key>
+					<string>time</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A reference to a frame (sample) in a QuickTime movie track.</string>
+			<key>Name</key>
+			<string>frame</string>
+			<key>PluralName</key>
+			<string>frames</string>
+		</dict>
+		<key>QTPModelInternetLocation</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>location</key>
+				<dict>
+					<key>Description</key>
+					<string>the internet location</string>
+					<key>Name</key>
+					<string>location</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the chapter</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A movie internet location</string>
+			<key>Name</key>
+			<string>internet location</string>
+			<key>PluralName</key>
+			<string>internet locations</string>
+		</dict>
+		<key>QTPModelRecentItem</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>kind</key>
+				<dict>
+					<key>Description</key>
+					<string>the kind of the recent item</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the recent item</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A reference to recently viewed QuickTime content</string>
+			<key>Name</key>
+			<string>recent item</string>
+			<key>PluralName</key>
+			<string>recent items</string>
+		</dict>
+		<key>QTPMovieDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>aperture</key>
+				<dict>
+					<key>Description</key>
+					<string>the aperture mode of the movie</string>
+					<key>Name</key>
+					<string>aperture</string>
+				</dict>
+				<key>autoCloseWhenDone</key>
+				<dict>
+					<key>Description</key>
+					<string>will the movie automatically close when done playing? (saved with movie)</string>
+					<key>Name</key>
+					<string>auto close when done</string>
+				</dict>
+				<key>autoPlay</key>
+				<dict>
+					<key>Description</key>
+					<string>will the movie automatically start playing? (saved with movie)</string>
+					<key>Name</key>
+					<string>auto play</string>
+				</dict>
+				<key>autoPresent</key>
+				<dict>
+					<key>Description</key>
+					<string>will the movie automatically start presenting? (saved with movie)</string>
+					<key>Name</key>
+					<string>auto present</string>
+				</dict>
+				<key>autoQuitWhenDone</key>
+				<dict>
+					<key>Description</key>
+					<string>will the player automatically quit when done playing? (saved with movie)</string>
+					<key>Name</key>
+					<string>auto quit when done</string>
+				</dict>
+				<key>bassGain</key>
+				<dict>
+					<key>Description</key>
+					<string>the bass setting for the track (-256..256) (not saved with movie)</string>
+					<key>Name</key>
+					<string>bass gain</string>
+				</dict>
+				<key>closeWhenDone</key>
+				<dict>
+					<key>Description</key>
+					<string>close the movie when it is done playing? (not saved with movie)</string>
+					<key>Name</key>
+					<string>close when done</string>
+				</dict>
+				<key>controllerType</key>
+				<dict>
+					<key>Description</key>
+					<string>the type of controller associated with the movie</string>
+					<key>Name</key>
+					<string>controller type</string>
+				</dict>
+				<key>currentChapter</key>
+				<dict>
+					<key>Description</key>
+					<string>the chapter containing the current time</string>
+					<key>Name</key>
+					<string>current chapter</string>
+				</dict>
+				<key>currentChapterTrack</key>
+				<dict>
+					<key>Description</key>
+					<string>the currently active chapter track (may differ by language)</string>
+					<key>Name</key>
+					<string>current chapter track</string>
+				</dict>
+				<key>currentMatrix</key>
+				<dict>
+					<key>Description</key>
+					<string>the matrix of the movie</string>
+					<key>Name</key>
+					<string>current matrix</string>
+				</dict>
+				<key>currentNode</key>
+				<dict>
+					<key>Description</key>
+					<string>the current node of the VR movie</string>
+					<key>Name</key>
+					<string>current node</string>
+				</dict>
+				<key>currentTime</key>
+				<dict>
+					<key>Description</key>
+					<string>the current time (can be set by name as well as number)</string>
+					<key>Name</key>
+					<string>current time</string>
+				</dict>
+				<key>dataRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the data rate (bytes/sec) of the movie</string>
+					<key>Name</key>
+					<string>data rate</string>
+				</dict>
+				<key>dataSize</key>
+				<dict>
+					<key>Description</key>
+					<string>the data size (in bytes) of the movie</string>
+					<key>Name</key>
+					<string>data size</string>
+				</dict>
+				<key>defaultNode</key>
+				<dict>
+					<key>Description</key>
+					<string>the default node of the VR movie</string>
+					<key>Name</key>
+					<string>default node</string>
+				</dict>
+				<key>dimensions</key>
+				<dict>
+					<key>Description</key>
+					<string>the current dimensions of the movie, not including the controller</string>
+					<key>Name</key>
+					<string>dimensions</string>
+				</dict>
+				<key>displayState</key>
+				<dict>
+					<key>Description</key>
+					<string>the display state of the movie</string>
+					<key>Name</key>
+					<string>display state</string>
+				</dict>
+				<key>done</key>
+				<dict>
+					<key>Description</key>
+					<string>is the movie done playing?</string>
+					<key>Name</key>
+					<string>done</string>
+				</dict>
+				<key>duration</key>
+				<dict>
+					<key>Description</key>
+					<string>the duration of the movie</string>
+					<key>Name</key>
+					<string>duration</string>
+				</dict>
+				<key>fastStart</key>
+				<dict>
+					<key>Description</key>
+					<string>is this a fast-start movie?</string>
+					<key>Name</key>
+					<string>fast start</string>
+				</dict>
+				<key>fieldOfView</key>
+				<dict>
+					<key>Description</key>
+					<string>the field of view of the current node</string>
+					<key>Name</key>
+					<string>field of view</string>
+				</dict>
+				<key>fieldOfViewRange</key>
+				<dict>
+					<key>Description</key>
+					<string>minimum and maximum values for field of view value: given as { min, max }</string>
+					<key>Name</key>
+					<string>field of view range</string>
+				</dict>
+				<key>href</key>
+				<dict>
+					<key>Description</key>
+					<string>the internet location to open when clicking on the movie (overrides track hrefs)</string>
+					<key>Name</key>
+					<string>href</string>
+				</dict>
+				<key>id</key>
+				<dict>
+					<key>Description</key>
+					<string>the ID of the movie</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+				<key>index</key>
+				<dict>
+					<key>Description</key>
+					<string>the index of the movie</string>
+					<key>Name</key>
+					<string>index</string>
+				</dict>
+				<key>liveStream</key>
+				<dict>
+					<key>Description</key>
+					<string>is this a live streaming movie?</string>
+					<key>Name</key>
+					<string>live stream</string>
+				</dict>
+				<key>loadState</key>
+				<dict>
+					<key>Description</key>
+					<string>the current state of an asynchronously loading movie</string>
+					<key>Name</key>
+					<string>load state</string>
+				</dict>
+				<key>localPlayback</key>
+				<dict>
+					<key>Description</key>
+					<string>is this a local movie?</string>
+					<key>Name</key>
+					<string>local playback</string>
+				</dict>
+				<key>looping</key>
+				<dict>
+					<key>Description</key>
+					<string>keep playing the movie in a loop?</string>
+					<key>Name</key>
+					<string>looping</string>
+				</dict>
+				<key>maxTimeLoaded</key>
+				<dict>
+					<key>Description</key>
+					<string>the amount of time loaded in a fast start movie</string>
+					<key>Name</key>
+					<string>max time loaded</string>
+				</dict>
+				<key>modified</key>
+				<dict>
+					<key>Description</key>
+					<string>has the document been modified since the last save?</string>
+					<key>Name</key>
+					<string>modified</string>
+				</dict>
+				<key>movieLanguage</key>
+				<dict>
+					<key>Description</key>
+					<string>the current language of the movie</string>
+					<key>Name</key>
+					<string>language</string>
+				</dict>
+				<key>muted</key>
+				<dict>
+					<key>Description</key>
+					<string>is the movie muted?</string>
+					<key>Name</key>
+					<string>muted</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the movie's name.</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>naturalDimensions</key>
+				<dict>
+					<key>Description</key>
+					<string>the dimensions the movie has when it is not scaled</string>
+					<key>Name</key>
+					<string>natural dimensions</string>
+				</dict>
+				<key>originalFile</key>
+				<dict>
+					<key>Description</key>
+					<string>the file containing the movie</string>
+					<key>Name</key>
+					<string>original file</string>
+				</dict>
+				<key>palindrome</key>
+				<dict>
+					<key>Description</key>
+					<string>loop back and forth?</string>
+					<key>Name</key>
+					<string>palindrome</string>
+				</dict>
+				<key>panAngle</key>
+				<dict>
+					<key>Description</key>
+					<string>the pan angle of the current node</string>
+					<key>Name</key>
+					<string>pan angle</string>
+				</dict>
+				<key>panRange</key>
+				<dict>
+					<key>Description</key>
+					<string>minimum and maximum values for pan value: given as { min, max }</string>
+					<key>Name</key>
+					<string>pan range</string>
+				</dict>
+				<key>panTiltSpeed</key>
+				<dict>
+					<key>Description</key>
+					<string>the rate at which panning will occur</string>
+					<key>Name</key>
+					<string>pan tilt speed</string>
+				</dict>
+				<key>playAllFrames</key>
+				<dict>
+					<key>Description</key>
+					<string>play every frame? (no audio will play)</string>
+					<key>Name</key>
+					<string>play all frames</string>
+				</dict>
+				<key>playSelectionOnly</key>
+				<dict>
+					<key>Description</key>
+					<string>play the selection only?</string>
+					<key>Name</key>
+					<string>play selection only</string>
+				</dict>
+				<key>playing</key>
+				<dict>
+					<key>Description</key>
+					<string>is the movie playing?</string>
+					<key>Name</key>
+					<string>playing</string>
+				</dict>
+				<key>pluginSettings</key>
+				<dict>
+					<key>Description</key>
+					<string>the QuickTime Plugin settings stored in the movie</string>
+					<key>Name</key>
+					<string>plugin settings</string>
+				</dict>
+				<key>posterFrameTime</key>
+				<dict>
+					<key>Description</key>
+					<string>the time of the poster frame for the movie</string>
+					<key>Name</key>
+					<string>poster frame time</string>
+				</dict>
+				<key>preferredRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the preferred rate of the movie</string>
+					<key>Name</key>
+					<string>preferred rate</string>
+				</dict>
+				<key>presentationBackgroundColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the background color (default is black)</string>
+					<key>Name</key>
+					<string>presentation background color</string>
+				</dict>
+				<key>presentationMode</key>
+				<dict>
+					<key>Description</key>
+					<string>mode in which the movie will be presented</string>
+					<key>Name</key>
+					<string>presentation mode</string>
+				</dict>
+				<key>presentationSize</key>
+				<dict>
+					<key>Description</key>
+					<string>size at which the movie will be presented</string>
+					<key>Name</key>
+					<string>presentation size</string>
+				</dict>
+				<key>preview</key>
+				<dict>
+					<key>Description</key>
+					<string>start time and end time of the movie preview. Example: {0, 1200}</string>
+					<key>Name</key>
+					<string>preview</string>
+				</dict>
+				<key>quitWhenDone</key>
+				<dict>
+					<key>Description</key>
+					<string>quit the application when this movie is done playing? (not saved with movie)</string>
+					<key>Name</key>
+					<string>quit when done</string>
+				</dict>
+				<key>rate</key>
+				<dict>
+					<key>Description</key>
+					<string>the rate at which the movie is currently playing</string>
+					<key>Name</key>
+					<string>rate</string>
+				</dict>
+				<key>savable</key>
+				<dict>
+					<key>Description</key>
+					<string>can the movie be saved?</string>
+					<key>Name</key>
+					<string>savable</string>
+				</dict>
+				<key>scale</key>
+				<dict>
+					<key>Description</key>
+					<string>the current scale of the movie</string>
+					<key>Name</key>
+					<string>scale</string>
+				</dict>
+				<key>selectionDuration</key>
+				<dict>
+					<key>Description</key>
+					<string>the duration of the movie selection</string>
+					<key>Name</key>
+					<string>selection duration</string>
+				</dict>
+				<key>selectionEnd</key>
+				<dict>
+					<key>Description</key>
+					<string>the end of the movie selection</string>
+					<key>Name</key>
+					<string>selection end</string>
+				</dict>
+				<key>selectionStart</key>
+				<dict>
+					<key>Description</key>
+					<string>the start of the movie selection</string>
+					<key>Name</key>
+					<string>selection start</string>
+				</dict>
+				<key>showDetailedMovieInfoWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>show the movie property window</string>
+					<key>Name</key>
+					<string>show detailed movie info window</string>
+				</dict>
+				<key>showHotSpots</key>
+				<dict>
+					<key>Description</key>
+					<string>should hotspots be shown?</string>
+					<key>Name</key>
+					<string>show hot spots</string>
+				</dict>
+				<key>showMovieInfoWindow</key>
+				<dict>
+					<key>Description</key>
+					<string>show the movie info window</string>
+					<key>Name</key>
+					<string>show movie info window</string>
+				</dict>
+				<key>soundBalance</key>
+				<dict>
+					<key>Description</key>
+					<string>the balance of the movie (-128..128), where negative is left, 0 is center, and positive is right</string>
+					<key>Name</key>
+					<string>sound balance</string>
+				</dict>
+				<key>soundVolume</key>
+				<dict>
+					<key>Description</key>
+					<string>the sound volume of the movie (0..384), where 256 is 100%</string>
+					<key>Name</key>
+					<string>sound volume</string>
+				</dict>
+				<key>storedStream</key>
+				<dict>
+					<key>Description</key>
+					<string>is this a stored streaming movie?</string>
+					<key>Name</key>
+					<string>stored stream</string>
+				</dict>
+				<key>streamingStatusCode</key>
+				<dict>
+					<key>Description</key>
+					<string>the streaming status code of the movie</string>
+					<key>Name</key>
+					<string>streaming status code</string>
+				</dict>
+				<key>streamingStatusMessage</key>
+				<dict>
+					<key>Description</key>
+					<string>the streaming status message of the movie</string>
+					<key>Name</key>
+					<string>streaming status message</string>
+				</dict>
+				<key>tiltAngle</key>
+				<dict>
+					<key>Description</key>
+					<string>the tilt angle of the current node</string>
+					<key>Name</key>
+					<string>tilt angle</string>
+				</dict>
+				<key>tiltRange</key>
+				<dict>
+					<key>Description</key>
+					<string>minimum and maximum values for tilt value: given as { min, max }</string>
+					<key>Name</key>
+					<string>tilt range</string>
+				</dict>
+				<key>timeScale</key>
+				<dict>
+					<key>Description</key>
+					<string>the time scale of the movie</string>
+					<key>Name</key>
+					<string>time scale</string>
+				</dict>
+				<key>trebleGain</key>
+				<dict>
+					<key>Description</key>
+					<string>the treble setting for the movie (-256..256) (not saved with movie)</string>
+					<key>Name</key>
+					<string>treble gain</string>
+				</dict>
+				<key>videoBrightnessAdjustment</key>
+				<dict>
+					<key>Description</key>
+					<string>the adjustment to the video brightness (range is -1.0 to 1.0)</string>
+					<key>Name</key>
+					<string>video brightness adjustment</string>
+				</dict>
+				<key>videoColorAdjustment</key>
+				<dict>
+					<key>Description</key>
+					<string>the adjustment to the video color</string>
+					<key>Name</key>
+					<string>video color adjustment</string>
+				</dict>
+				<key>videoContrastAdjustment</key>
+				<dict>
+					<key>Description</key>
+					<string>the adjustment to the video contrast (range is -1.0 to 1.0)</string>
+					<key>Name</key>
+					<string>video contrast adjustment</string>
+				</dict>
+				<key>videoTintAdjustment</key>
+				<dict>
+					<key>Description</key>
+					<string>the adjustment to the video tint (range is -0.25 to 0.25)</string>
+					<key>Name</key>
+					<string>video tint adjustment</string>
+				</dict>
+				<key>zoomRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the rate at which zooming will occur</string>
+					<key>Name</key>
+					<string>zoom rate</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A movie document</string>
+			<key>Name</key>
+			<string>document</string>
+			<key>PluralName</key>
+			<string>documents</string>
+		</dict>
+		<key>QTPTextFrame</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>antialias</key>
+				<dict>
+					<key>Description</key>
+					<string>anti-alias text against background</string>
+					<key>Name</key>
+					<string>antialias</string>
+				</dict>
+				<key>autoScale</key>
+				<dict>
+					<key>Description</key>
+					<string>should text auto scale with track dimensions</string>
+					<key>Name</key>
+					<string>auto scale</string>
+				</dict>
+				<key>backgroundColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the background color of the text frame, e.g. {0, 0, 65535}, the rgb value for blue</string>
+					<key>Name</key>
+					<string>background color</string>
+				</dict>
+				<key>clipToTextBox</key>
+				<dict>
+					<key>Description</key>
+					<string>draw only the text box</string>
+					<key>Name</key>
+					<string>clip to text box</string>
+				</dict>
+				<key>defaultFont</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the default font</string>
+					<key>Name</key>
+					<string>default font</string>
+				</dict>
+				<key>defaultFontSize</key>
+				<dict>
+					<key>Description</key>
+					<string>the default font size of the text frame</string>
+					<key>Name</key>
+					<string>default font size</string>
+				</dict>
+				<key>defaultFontStyles</key>
+				<dict>
+					<key>Description</key>
+					<string>the default font styles of the text frame</string>
+					<key>Name</key>
+					<string>default font styles</string>
+				</dict>
+				<key>dimensions</key>
+				<dict>
+					<key>Description</key>
+					<string>the dimensions of the text frame</string>
+					<key>Name</key>
+					<string>dimensions</string>
+				</dict>
+				<key>dropShadow</key>
+				<dict>
+					<key>Description</key>
+					<string>should text be drawn with a drop shadow?</string>
+					<key>Name</key>
+					<string>drop shadow</string>
+				</dict>
+				<key>dropShadowOffset</key>
+				<dict>
+					<key>Description</key>
+					<string>the drop shadow offset of the text frame</string>
+					<key>Name</key>
+					<string>drop shadow offset</string>
+				</dict>
+				<key>dropShadowTransparency</key>
+				<dict>
+					<key>Description</key>
+					<string>the drop shadow transparency of the text frame (0..255), where 255 is 100% opaque</string>
+					<key>Name</key>
+					<string>drop shadow transparency</string>
+				</dict>
+				<key>foregroundColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the foreground color of the text frame</string>
+					<key>Name</key>
+					<string>foreground color</string>
+				</dict>
+				<key>highlight</key>
+				<dict>
+					<key>Description</key>
+					<string>the highlight of the text frame</string>
+					<key>Name</key>
+					<string>highlight</string>
+				</dict>
+				<key>highlightColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the highlight color of the text frame</string>
+					<key>Name</key>
+					<string>highlight color</string>
+				</dict>
+				<key>inverseHighlighting</key>
+				<dict>
+					<key>Description</key>
+					<string>invert colors to indicate highlighting</string>
+					<key>Name</key>
+					<string>inverse highlighting</string>
+				</dict>
+				<key>justification</key>
+				<dict>
+					<key>Description</key>
+					<string>the justification of the text frame</string>
+					<key>Name</key>
+					<string>justification</string>
+				</dict>
+				<key>keyed</key>
+				<dict>
+					<key>Description</key>
+					<string>render text over background</string>
+					<key>Name</key>
+					<string>keyed</string>
+				</dict>
+				<key>kind</key>
+				<dict>
+					<key>Description</key>
+					<string>the kind of text in the text track</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>position</key>
+				<dict>
+					<key>Description</key>
+					<string>the position of the text frame</string>
+					<key>Name</key>
+					<string>position</string>
+				</dict>
+				<key>sampleData</key>
+				<dict>
+					<key>Description</key>
+					<string>the text contents of the text frame</string>
+					<key>Name</key>
+					<string>sample data</string>
+				</dict>
+				<key>scroll</key>
+				<dict>
+					<key>Description</key>
+					<string>a list of scroll settings for the text frame</string>
+					<key>Name</key>
+					<string>scroll</string>
+				</dict>
+				<key>scrollDelay</key>
+				<dict>
+					<key>Description</key>
+					<string>the scroll delay of the text frame</string>
+					<key>Name</key>
+					<string>scroll delay</string>
+				</dict>
+				<key>shrinkTextBox</key>
+				<dict>
+					<key>Description</key>
+					<string>calculate minimum text box</string>
+					<key>Name</key>
+					<string>shrink text box</string>
+				</dict>
+				<key>textColorHighlighting</key>
+				<dict>
+					<key>Description</key>
+					<string>change text color to indicate highlighting</string>
+					<key>Name</key>
+					<string>text color highlighting</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A reference to a text frame in a QuickTime text track.</string>
+			<key>Name</key>
+			<string>text frame</string>
+			<key>PluralName</key>
+			<string>text frames</string>
+		</dict>
+		<key>QTStream</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>audioChannelCount</key>
+				<dict>
+					<key>Description</key>
+					<string>the number of channels in the audio</string>
+					<key>Name</key>
+					<string>audio channel count</string>
+				</dict>
+				<key>audioSampleRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the sample rate of the audio</string>
+					<key>Name</key>
+					<string>audio sample rate</string>
+				</dict>
+				<key>audioSampleSize</key>
+				<dict>
+					<key>Description</key>
+					<string>the size of decompressed audio samples</string>
+					<key>Name</key>
+					<string>audio sample size</string>
+				</dict>
+				<key>isGrayScale</key>
+				<dict>
+					<key>Description</key>
+					<string>is the video gray scale?</string>
+					<key>Name</key>
+					<string>is video gray scale</string>
+				</dict>
+				<key>kind</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the media in the stream, in the current language (e.g., 'Sound', 'Video', 'Text', ...)</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the data format</string>
+					<key>Name</key>
+					<string>data format</string>
+				</dict>
+				<key>pixelDepth</key>
+				<dict>
+					<key>Description</key>
+					<string>the color depth of the video</string>
+					<key>Name</key>
+					<string>video depth</string>
+				</dict>
+				<key>type</key>
+				<dict>
+					<key>Description</key>
+					<string>the type of media in the stream (e.g., 'soun', 'vide', 'text', ...)</string>
+					<key>Name</key>
+					<string>type</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>a stream within a streaming track</string>
+			<key>Name</key>
+			<string>stream</string>
+			<key>PluralName</key>
+			<string>streams</string>
+		</dict>
+		<key>QTTrack</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>audioChannelCount</key>
+				<dict>
+					<key>Description</key>
+					<string>the number of channels in the audio</string>
+					<key>Name</key>
+					<string>audio channel count</string>
+				</dict>
+				<key>audioCharacteristic</key>
+				<dict>
+					<key>Description</key>
+					<string>can the track be heard?</string>
+					<key>Name</key>
+					<string>audio characteristic</string>
+				</dict>
+				<key>audioSampleSize</key>
+				<dict>
+					<key>Description</key>
+					<string>the size of uncompressed audio samples in bits</string>
+					<key>Name</key>
+					<string>audio sample size</string>
+				</dict>
+				<key>bassGain</key>
+				<dict>
+					<key>Description</key>
+					<string>the bass setting for the track (-256..256) (not saved with movie)</string>
+					<key>Name</key>
+					<string>bass gain</string>
+				</dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>the contents of the track</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+				<key>currentMatrix</key>
+				<dict>
+					<key>Description</key>
+					<string>the matrix of the track</string>
+					<key>Name</key>
+					<string>current matrix</string>
+				</dict>
+				<key>dataFormat</key>
+				<dict>
+					<key>Description</key>
+					<string>the data format</string>
+					<key>Name</key>
+					<string>data format</string>
+				</dict>
+				<key>dataSize</key>
+				<dict>
+					<key>Description</key>
+					<string>the data size (in bytes) of the track</string>
+					<key>Name</key>
+					<string>data size</string>
+				</dict>
+				<key>deinterlaceFields</key>
+				<dict>
+					<key>Description</key>
+					<string>is the visual track deinterlaced?</string>
+					<key>Name</key>
+					<string>deinterlace fields</string>
+				</dict>
+				<key>duration</key>
+				<dict>
+					<key>Description</key>
+					<string>the duration of the track</string>
+					<key>Name</key>
+					<string>duration</string>
+				</dict>
+				<key>highQuality</key>
+				<dict>
+					<key>Description</key>
+					<string>is the track high quality?</string>
+					<key>Name</key>
+					<string>high quality</string>
+				</dict>
+				<key>id</key>
+				<dict>
+					<key>Description</key>
+					<string>the unique identifier for this track</string>
+					<key>Name</key>
+					<string>id</string>
+				</dict>
+				<key>index</key>
+				<dict>
+					<key>Description</key>
+					<string>the index of the track</string>
+					<key>Name</key>
+					<string>index</string>
+				</dict>
+				<key>isVideoGrayScale</key>
+				<dict>
+					<key>Description</key>
+					<string>is the video gray scale?</string>
+					<key>Name</key>
+					<string>is video gray scale</string>
+				</dict>
+				<key>kind</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the media in the track, in the current language (e.g., 'Sound', 'Video', 'Text', ...)</string>
+					<key>Name</key>
+					<string>kind</string>
+				</dict>
+				<key>name</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the track</string>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+				<key>neverPurge</key>
+				<dict>
+					<key>Description</key>
+					<string>never purge the track?</string>
+					<key>Name</key>
+					<string>never purge</string>
+				</dict>
+				<key>preload</key>
+				<dict>
+					<key>Description</key>
+					<string>should the track be preloaded?</string>
+					<key>Name</key>
+					<string>preload</string>
+				</dict>
+				<key>singleField</key>
+				<dict>
+					<key>Description</key>
+					<string>is the visual track single field?</string>
+					<key>Name</key>
+					<string>single field</string>
+				</dict>
+				<key>soundBalance</key>
+				<dict>
+					<key>Description</key>
+					<string>the balance of the track (-128..128), where negative is left, 0 is center, and positive is right</string>
+					<key>Name</key>
+					<string>sound balance</string>
+				</dict>
+				<key>soundVolume</key>
+				<dict>
+					<key>Description</key>
+					<string>the volume of the track (0..512), where 256 is 100%</string>
+					<key>Name</key>
+					<string>sound volume</string>
+				</dict>
+				<key>startTime</key>
+				<dict>
+					<key>Description</key>
+					<string>the time delay before this track starts playing</string>
+					<key>Name</key>
+					<string>start time</string>
+				</dict>
+				<key>streamingBitRate</key>
+				<dict>
+					<key>Description</key>
+					<string>bit rate in bits/second for all streams in track</string>
+					<key>Name</key>
+					<string>streaming bit rate</string>
+				</dict>
+				<key>streamingQuality</key>
+				<dict>
+					<key>Description</key>
+					<string>percent of packets received for all streams in track</string>
+					<key>Name</key>
+					<string>streaming quality</string>
+				</dict>
+				<key>trackAlternate</key>
+				<dict>
+					<key>Description</key>
+					<string>the alternate for this track</string>
+					<key>Name</key>
+					<string>alternate</string>
+				</dict>
+				<key>trackAudioSampleRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the sample rate of the audio in kHz</string>
+					<key>Name</key>
+					<string>audio sample rate</string>
+				</dict>
+				<key>trackChapterlist</key>
+				<dict>
+					<key>Description</key>
+					<string>text track to use as chapter list for this track</string>
+					<key>Name</key>
+					<string>chapterlist</string>
+				</dict>
+				<key>trackDataRate</key>
+				<dict>
+					<key>Description</key>
+					<string>the data rate (bytes/sec) of the track</string>
+					<key>Name</key>
+					<string>data rate</string>
+				</dict>
+				<key>trackDimensions</key>
+				<dict>
+					<key>Description</key>
+					<string>the current dimensions of the track</string>
+					<key>Name</key>
+					<string>dimensions</string>
+				</dict>
+				<key>trackEnabled</key>
+				<dict>
+					<key>Description</key>
+					<string>should this track be used when the movie is playing?</string>
+					<key>Name</key>
+					<string>enabled</string>
+				</dict>
+				<key>trackHref</key>
+				<dict>
+					<key>Description</key>
+					<string>the internet location to open when clicking on the track</string>
+					<key>Name</key>
+					<string>href</string>
+				</dict>
+				<key>trackLanguage</key>
+				<dict>
+					<key>Description</key>
+					<string>the language of the track</string>
+					<key>Name</key>
+					<string>language</string>
+				</dict>
+				<key>trackLayer</key>
+				<dict>
+					<key>Description</key>
+					<string>the layer of the track</string>
+					<key>Name</key>
+					<string>layer</string>
+				</dict>
+				<key>trackMask</key>
+				<dict>
+					<key>Description</key>
+					<string>the mask of the track</string>
+					<key>Name</key>
+					<string>mask</string>
+				</dict>
+				<key>trackNaturalDimensions</key>
+				<dict>
+					<key>Description</key>
+					<string>the dimensions the track has when it is not scaled</string>
+					<key>Name</key>
+					<string>natural dimensions</string>
+				</dict>
+				<key>trackOperationColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the operation color of the track - not all transfer modes use this value</string>
+					<key>Name</key>
+					<string>operation color</string>
+				</dict>
+				<key>trackPosition</key>
+				<dict>
+					<key>Description</key>
+					<string>the position of the track</string>
+					<key>Name</key>
+					<string>position</string>
+				</dict>
+				<key>trackTransferMode</key>
+				<dict>
+					<key>Description</key>
+					<string>the transfer mode of the track</string>
+					<key>Name</key>
+					<string>transfer mode</string>
+				</dict>
+				<key>transparency</key>
+				<dict>
+					<key>Description</key>
+					<string>the transparency setting for the track (0..100 percent), where 0 is totally opaque</string>
+					<key>Name</key>
+					<string>transparency</string>
+				</dict>
+				<key>trebleGain</key>
+				<dict>
+					<key>Description</key>
+					<string>the treble setting for the track (-256..256) (not saved with movie)</string>
+					<key>Name</key>
+					<string>treble gain</string>
+				</dict>
+				<key>type</key>
+				<dict>
+					<key>Description</key>
+					<string>the type of media in the track (e.g., 'soun', 'vide', 'text', ...)</string>
+					<key>Name</key>
+					<string>type</string>
+				</dict>
+				<key>videoDepth</key>
+				<dict>
+					<key>Description</key>
+					<string>the color depth of the video</string>
+					<key>Name</key>
+					<string>video depth</string>
+				</dict>
+				<key>visualCharacteristic</key>
+				<dict>
+					<key>Description</key>
+					<string>can the track be seen?</string>
+					<key>Name</key>
+					<string>visual characteristic</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A track in a QuickTime movie</string>
+			<key>Name</key>
+			<string>track</string>
+			<key>PluralName</key>
+			<string>tracks</string>
+		</dict>
+		<key>RgbColor</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>blue</key>
+				<dict>
+					<key>Description</key>
+					<string>the magnitude of the blue component (0..65535)</string>
+					<key>Name</key>
+					<string>blue</string>
+				</dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>the contents of the rgb color</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+				<key>green</key>
+				<dict>
+					<key>Description</key>
+					<string>the magnitude of the green component (0..65535)</string>
+					<key>Name</key>
+					<string>green</string>
+				</dict>
+				<key>red</key>
+				<dict>
+					<key>Description</key>
+					<string>the magnitude of the red component (0..65535)</string>
+					<key>Name</key>
+					<string>red</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>An RGB color</string>
+			<key>Name</key>
+			<string>rgb color</string>
+			<key>PluralName</key>
+			<string>rgb colors</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Scaled</key>
+				<dict>
+					<key>Description</key>
+					<string>should added content be scaled to duration of current selection?</string>
+					<key>Name</key>
+					<string>scaled</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Add an object from the clipboard in parallel to the current selection</string>
+			<key>Name</key>
+			<string>add</string>
+		</dict>
+		<key>CanExport</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>As</key>
+				<dict>
+					<key>Description</key>
+					<string>the desired file type</string>
+					<key>Name</key>
+					<string>as</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Determine if a movie or track can be exported to the desired type</string>
+			<key>Name</key>
+			<string>can export</string>
+		</dict>
+		<key>Clear</key>
+		<dict>
+			<key>Description</key>
+			<string>Clear the current selection</string>
+			<key>Name</key>
+			<string>clear</string>
+		</dict>
+		<key>Copy</key>
+		<dict>
+			<key>Description</key>
+			<string>Copy an object to the clipboard</string>
+			<key>Name</key>
+			<string>copy</string>
+		</dict>
+		<key>Cut</key>
+		<dict>
+			<key>Description</key>
+			<string>Cut an object to the clipboard</string>
+			<key>Name</key>
+			<string>cut</string>
+		</dict>
+		<key>Export</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>As</key>
+				<dict>
+					<key>Description</key>
+					<string>the desired file type</string>
+					<key>Name</key>
+					<string>as</string>
+				</dict>
+				<key>Destination</key>
+				<dict>
+					<key>Description</key>
+					<string>the destination file</string>
+					<key>Name</key>
+					<string>to</string>
+				</dict>
+				<key>Replacing</key>
+				<dict>
+					<key>Description</key>
+					<string>should the original file be deleted first?</string>
+					<key>Name</key>
+					<string>replacing</string>
+				</dict>
+				<key>Using</key>
+				<dict>
+					<key>Description</key>
+					<string>the export settings to use</string>
+					<key>Name</key>
+					<string>using</string>
+				</dict>
+				<key>UsingSettingsFile</key>
+				<dict>
+					<key>Description</key>
+					<string>the file containing the export settings</string>
+					<key>Name</key>
+					<string>using settings</string>
+				</dict>
+				<key>UsingSettingsPreset</key>
+				<dict>
+					<key>Description</key>
+					<string>the name of the export settings preset to use</string>
+					<key>Name</key>
+					<string>using settings preset</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Export a movie or track to a file</string>
+			<key>Name</key>
+			<string>export</string>
+		</dict>
+		<key>Find</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>SearchBackwards</key>
+				<dict>
+					<key>Description</key>
+					<string>perform the search backwards?</string>
+					<key>Name</key>
+					<string>backwards</string>
+				</dict>
+				<key>SearchString</key>
+				<dict>
+					<key>Description</key>
+					<string>the text to search for</string>
+					<key>Name</key>
+					<string>text</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Find text in a movie</string>
+			<key>Name</key>
+			<string>find</string>
+		</dict>
+		<key>FlipHorizontal</key>
+		<dict>
+			<key>Description</key>
+			<string>Flip an object along the horizontal axis</string>
+			<key>Name</key>
+			<string>flip horizontal</string>
+		</dict>
+		<key>FlipVertical</key>
+		<dict>
+			<key>Description</key>
+			<string>Flip an object along the vertical axis</string>
+			<key>Name</key>
+			<string>flip vertical</string>
+		</dict>
+		<key>GetURL</key>
+		<dict>
+			<key>Description</key>
+			<string>Play a movie from a URL</string>
+			<key>Name</key>
+			<string>getURL</string>
+		</dict>
+		<key>Invert</key>
+		<dict>
+			<key>Description</key>
+			<string>Invert an object</string>
+			<key>Name</key>
+			<string>invert</string>
+		</dict>
+		<key>NewAudioRecording</key>
+		<dict>
+			<key>Description</key>
+			<string>Create a new audio recording.</string>
+			<key>Name</key>
+			<string>new audio recording</string>
+		</dict>
+		<key>NewMovieRecording</key>
+		<dict>
+			<key>Description</key>
+			<string>Create a new movie recording.</string>
+			<key>Name</key>
+			<string>new movie recording</string>
+		</dict>
+		<key>Nudge</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Direction</key>
+				<dict>
+					<key>Description</key>
+					<string>The direction of the nudge</string>
+					<key>Name</key>
+					<string>direction</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Nudge a QuickTime VR movie</string>
+			<key>Name</key>
+			<string>nudge</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the VR movie to nudge</string>
+			</dict>
+		</dict>
+		<key>OpenImageSequence</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>FramesPerSecond</key>
+				<dict>
+					<key>Description</key>
+					<string>the number of desired frames per second</string>
+					<key>Name</key>
+					<string>frames per second</string>
+				</dict>
+				<key>SecondsPerFrame</key>
+				<dict>
+					<key>Description</key>
+					<string>the duration of each frame in seconds</string>
+					<key>Name</key>
+					<string>seconds per frame</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Open image sequence starting with the file.</string>
+			<key>Name</key>
+			<string>open image sequence</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the file representing first image of the image sequence</string>
+			</dict>
+		</dict>
+		<key>OpenLocation</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Position</key>
+				<dict>
+					<key>Description</key>
+					<string>the upper left coordinates of the window</string>
+					<key>Name</key>
+					<string>position</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Play the specified internet location(s)</string>
+			<key>Name</key>
+			<string>open location</string>
+		</dict>
+		<key>Paste</key>
+		<dict>
+			<key>Description</key>
+			<string>Paste an object from the clipboard</string>
+			<key>Name</key>
+			<string>paste</string>
+		</dict>
+		<key>Pause</key>
+		<dict>
+			<key>Description</key>
+			<string>Pause a movie or recording.</string>
+			<key>Name</key>
+			<string>pause</string>
+		</dict>
+		<key>Play</key>
+		<dict>
+			<key>Description</key>
+			<string>Play the movie.</string>
+			<key>Name</key>
+			<string>play</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie to play</string>
+			</dict>
+		</dict>
+		<key>Present</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>BackgroundColor</key>
+				<dict>
+					<key>Description</key>
+					<string>the background color, e.g. {65535, 65535, 65535}, the rgb value for white</string>
+					<key>Name</key>
+					<string>background color</string>
+				</dict>
+				<key>Display</key>
+				<dict>
+					<key>Description</key>
+					<string>the display on which to present the movie</string>
+					<key>Name</key>
+					<string>display</string>
+				</dict>
+				<key>Mode</key>
+				<dict>
+					<key>Description</key>
+					<string>the mode in which to present the movie</string>
+					<key>Name</key>
+					<string>mode</string>
+				</dict>
+				<key>Scale</key>
+				<dict>
+					<key>Description</key>
+					<string>the size at which to present the movie</string>
+					<key>Name</key>
+					<string>scale</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Present a movie</string>
+			<key>Name</key>
+			<string>present</string>
+		</dict>
+		<key>Redo</key>
+		<dict>
+			<key>Description</key>
+			<string>Redo the action of the previous event or user interaction</string>
+			<key>Name</key>
+			<string>redo</string>
+		</dict>
+		<key>Replace</key>
+		<dict>
+			<key>Description</key>
+			<string>Replace the current selection with an object from the clipboard</string>
+			<key>Name</key>
+			<string>replace</string>
+		</dict>
+		<key>Resize</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Around</key>
+				<dict>
+					<key>Description</key>
+					<string>the point to resize around</string>
+					<key>Name</key>
+					<string>around</string>
+				</dict>
+				<key>By</key>
+				<dict>
+					<key>Description</key>
+					<string>the percent of current size</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Scale an object</string>
+			<key>Name</key>
+			<string>resize</string>
+		</dict>
+		<key>Rewind</key>
+		<dict>
+			<key>Description</key>
+			<string>Rewind a movie to the beginning</string>
+			<key>Name</key>
+			<string>rewind</string>
+		</dict>
+		<key>Rotate</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Around</key>
+				<dict>
+					<key>Description</key>
+					<string>the point to rotate around</string>
+					<key>Name</key>
+					<string>around</string>
+				</dict>
+				<key>By</key>
+				<dict>
+					<key>Description</key>
+					<string>the amount of rotation (in degrees)</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Rotate an object by an arbitrary amount</string>
+			<key>Name</key>
+			<string>rotate</string>
+		</dict>
+		<key>RotateLeft</key>
+		<dict>
+			<key>Description</key>
+			<string>Rotate an object 90¡ left</string>
+			<key>Name</key>
+			<string>rotate left</string>
+		</dict>
+		<key>RotateRight</key>
+		<dict>
+			<key>Description</key>
+			<string>Rotate an object 90¡ right</string>
+			<key>Name</key>
+			<string>rotate right</string>
+		</dict>
+		<key>SaveExportSettings</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>As</key>
+				<dict>
+					<key>Description</key>
+					<string>the desired file type</string>
+					<key>Name</key>
+					<string>for</string>
+				</dict>
+				<key>DestinationFile</key>
+				<dict>
+					<key>Description</key>
+					<string>the destination file</string>
+					<key>Name</key>
+					<string>to</string>
+				</dict>
+				<key>Replacing</key>
+				<dict>
+					<key>Description</key>
+					<string>should the original file be deleted first?</string>
+					<key>Name</key>
+					<string>replacing</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Save an exporters settings</string>
+			<key>Name</key>
+			<string>save export settings</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie to save export settings for</string>
+			</dict>
+		</dict>
+		<key>SaveReferenceMovie</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Destination</key>
+				<dict>
+					<key>Description</key>
+					<string>the destination file</string>
+					<key>Name</key>
+					<string>to</string>
+				</dict>
+				<key>Replacing</key>
+				<dict>
+					<key>Description</key>
+					<string>should the original file be deleted first?</string>
+					<key>Name</key>
+					<string>replacing</string>
+				</dict>
+				<key>UsingDescriptors</key>
+				<dict>
+					<key>Description</key>
+					<string>a list of records that can contain movieURL, dataRate, and platform, where platform can be desktop or iPhone</string>
+					<key>Name</key>
+					<string>using descriptors</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Save a movie that references multiple versions of another movie to a file</string>
+			<key>Name</key>
+			<string>save reference movie</string>
+		</dict>
+		<key>SaveSelfContained</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>DestinationFile</key>
+				<dict>
+					<key>Description</key>
+					<string>The file in which to save the movie.</string>
+					<key>Name</key>
+					<string>in</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Save a self-contained movie.</string>
+			<key>Name</key>
+			<string>save self contained</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie to save</string>
+			</dict>
+		</dict>
+		<key>Select</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>At</key>
+				<dict>
+					<key>Description</key>
+					<string>starting time of the selection</string>
+					<key>Name</key>
+					<string>at</string>
+				</dict>
+				<key>To</key>
+				<dict>
+					<key>Description</key>
+					<string>end time of the selection</string>
+					<key>Name</key>
+					<string>to</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Select a range of time</string>
+			<key>Name</key>
+			<string>select</string>
+		</dict>
+		<key>SelectAll</key>
+		<dict>
+			<key>Description</key>
+			<string>Select the entire movie</string>
+			<key>Name</key>
+			<string>select all</string>
+		</dict>
+		<key>SelectNone</key>
+		<dict>
+			<key>Description</key>
+			<string>Set the selection of the movie to nothing</string>
+			<key>Name</key>
+			<string>select none</string>
+		</dict>
+		<key>Skew</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Around</key>
+				<dict>
+					<key>Description</key>
+					<string>the point to skew around</string>
+					<key>Name</key>
+					<string>around</string>
+				</dict>
+				<key>By</key>
+				<dict>
+					<key>Description</key>
+					<string>the amount of skew</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Skew an object by an arbitrary amount</string>
+			<key>Name</key>
+			<string>skew</string>
+		</dict>
+		<key>Start</key>
+		<dict>
+			<key>Description</key>
+			<string>Start playing or recording a movie.</string>
+			<key>Name</key>
+			<string>start</string>
+		</dict>
+		<key>StepBackward</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>NumberOfSteps</key>
+				<dict>
+					<key>Description</key>
+					<string>number of steps</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Move the current time backward</string>
+			<key>Name</key>
+			<string>step backward</string>
+		</dict>
+		<key>StepForward</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>NumberOfSteps</key>
+				<dict>
+					<key>Description</key>
+					<string>number of steps</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Move the current time forward</string>
+			<key>Name</key>
+			<string>step forward</string>
+		</dict>
+		<key>Stop</key>
+		<dict>
+			<key>Description</key>
+			<string>Stop playing or recording a movie.</string>
+			<key>Name</key>
+			<string>stop</string>
+		</dict>
+		<key>Translate</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>By</key>
+				<dict>
+					<key>Description</key>
+					<string>the distance to translate</string>
+					<key>Name</key>
+					<string>by</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Translate the object some distance</string>
+			<key>Name</key>
+			<string>translate</string>
+		</dict>
+		<key>Trigger</key>
+		<dict>
+			<key>Description</key>
+			<string>Trigger a QuickTime VR hotspot</string>
+			<key>Name</key>
+			<string>trigger</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the hotspot to trigger</string>
+			</dict>
+		</dict>
+		<key>Trim</key>
+		<dict>
+			<key>Description</key>
+			<string>Remove all content before and after the current selection</string>
+			<key>Name</key>
+			<string>trim</string>
+		</dict>
+		<key>Undo</key>
+		<dict>
+			<key>Description</key>
+			<string>Undo the action of the previous event or user interaction</string>
+			<key>Name</key>
+			<string>undo</string>
+		</dict>
+		<key>Zoom</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Direction</key>
+				<dict>
+					<key>Description</key>
+					<string>The direction in which to zoom</string>
+					<key>Name</key>
+					<string>direction</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Zoom a QuickTime VR movie</string>
+			<key>Name</key>
+			<string>zoom</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the VR movie to zoom</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Classes and Commands for working with QuickTime Player</string>
+	<key>Enumerations</key>
+	<dict>
+		<key>ApertureMode</key>
+		<dict>
+			<key>Classic</key>
+			<dict>
+				<key>Description</key>
+				<string>classic</string>
+				<key>Name</key>
+				<string>classic</string>
+			</dict>
+			<key>Clean</key>
+			<dict>
+				<key>Description</key>
+				<string>clean</string>
+				<key>Name</key>
+				<string>clean</string>
+			</dict>
+			<key>EncodedPixels</key>
+			<dict>
+				<key>Description</key>
+				<string>encoded pixels</string>
+				<key>Name</key>
+				<string>encoded pixels</string>
+			</dict>
+			<key>Production</key>
+			<dict>
+				<key>Description</key>
+				<string>production</string>
+				<key>Name</key>
+				<string>production</string>
+			</dict>
+			<key>Unconformed</key>
+			<dict>
+				<key>Description</key>
+				<string>unconformed</string>
+				<key>Name</key>
+				<string>unconformed</string>
+			</dict>
+		</dict>
+		<key>ControllerType</key>
+		<dict>
+			<key>None</key>
+			<dict>
+				<key>Description</key>
+				<string>none movie controller</string>
+				<key>Name</key>
+				<string>none</string>
+			</dict>
+			<key>Qtvr</key>
+			<dict>
+				<key>Description</key>
+				<string>QTVR movie controller</string>
+				<key>Name</key>
+				<string>qtvr</string>
+			</dict>
+			<key>QtvrObject</key>
+			<dict>
+				<key>Description</key>
+				<string>QTVR 1.0 object controller</string>
+				<key>Name</key>
+				<string>qtvr object</string>
+			</dict>
+			<key>QtvrPanorama</key>
+			<dict>
+				<key>Description</key>
+				<string>QTVR 1.0 panorama controller</string>
+				<key>Name</key>
+				<string>qtvr panorama</string>
+			</dict>
+			<key>Standard</key>
+			<dict>
+				<key>Description</key>
+				<string>standard movie controller</string>
+				<key>Name</key>
+				<string>standard</string>
+			</dict>
+		</dict>
+		<key>DisplayState</key>
+		<dict>
+			<key>Normal</key>
+			<dict>
+				<key>Description</key>
+				<string>movie is not being presented</string>
+				<key>Name</key>
+				<string>normal</string>
+			</dict>
+			<key>Presentation</key>
+			<dict>
+				<key>Description</key>
+				<string>movie is being presented</string>
+				<key>Name</key>
+				<string>presentation</string>
+			</dict>
+		</dict>
+		<key>ExportKind</key>
+		<dict>
+			<key>AIFF</key>
+			<dict>
+				<key>Description</key>
+				<string>AIFF file</string>
+				<key>Name</key>
+				<string>AIFF</string>
+			</dict>
+			<key>AVI</key>
+			<dict>
+				<key>Description</key>
+				<string>AVI file</string>
+				<key>Name</key>
+				<string>AVI</string>
+			</dict>
+			<key>AppleTV</key>
+			<dict>
+				<key>Description</key>
+				<string>Apple TV file</string>
+				<key>Name</key>
+				<string>Apple TV</string>
+			</dict>
+			<key>BMP</key>
+			<dict>
+				<key>Description</key>
+				<string>BMP file</string>
+				<key>Name</key>
+				<string>BMP</string>
+			</dict>
+			<key>DVStream</key>
+			<dict>
+				<key>Description</key>
+				<string>DV stream file</string>
+				<key>Name</key>
+				<string>DV stream</string>
+			</dict>
+			<key>FLC</key>
+			<dict>
+				<key>Description</key>
+				<string>FLC file</string>
+				<key>Name</key>
+				<string>FLC</string>
+			</dict>
+			<key>FastStartQTVRMovie</key>
+			<dict>
+				<key>Description</key>
+				<string>Fast Start QuickTime VR movie</string>
+				<key>Name</key>
+				<string>Fast Start QTVR Movie</string>
+			</dict>
+			<key>HintedMovie</key>
+			<dict>
+				<key>Description</key>
+				<string>Hinted movie</string>
+				<key>Name</key>
+				<string>hinted movie</string>
+			</dict>
+			<key>IPhone</key>
+			<dict>
+				<key>Description</key>
+				<string>iPhone file</string>
+				<key>Name</key>
+				<string>iPhone</string>
+			</dict>
+			<key>IPhoneCellular</key>
+			<dict>
+				<key>Description</key>
+				<string>iPhone file for cellular network</string>
+				<key>Name</key>
+				<string>iPhone cellular</string>
+			</dict>
+			<key>ITunes</key>
+			<dict>
+				<key>Description</key>
+				<string>iTunes file</string>
+				<key>Name</key>
+				<string>iTunes</string>
+			</dict>
+			<key>ImageSequence</key>
+			<dict>
+				<key>Description</key>
+				<string>image sequence</string>
+				<key>Name</key>
+				<string>image sequence</string>
+			</dict>
+			<key>InterframeCompressedVRObjectMovie</key>
+			<dict>
+				<key>Description</key>
+				<string>interframe compressed VR object movie</string>
+				<key>Name</key>
+				<string>interframe compressed VR object movie</string>
+			</dict>
+			<key>MPEG2</key>
+			<dict>
+				<key>Description</key>
+				<string>MPEG2</string>
+				<key>Name</key>
+				<string>MPEG2</string>
+			</dict>
+			<key>MPEG4</key>
+			<dict>
+				<key>Description</key>
+				<string>MPEG-4</string>
+				<key>Name</key>
+				<string>MPEG4</string>
+			</dict>
+			<key>MuLaw</key>
+			<dict>
+				<key>Description</key>
+				<string>MuLaw file</string>
+				<key>Name</key>
+				<string>MuLaw</string>
+			</dict>
+			<key>Picture</key>
+			<dict>
+				<key>Description</key>
+				<string>picture</string>
+				<key>Name</key>
+				<string>picture</string>
+			</dict>
+			<key>QuickTimeMediaLink</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime media link</string>
+				<key>Name</key>
+				<string>QuickTime media link</string>
+			</dict>
+			<key>QuickTimeMovie</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime movie file</string>
+				<key>Name</key>
+				<string>QuickTime movie</string>
+			</dict>
+			<key>QuickTimeTeXML</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime TeXML file</string>
+				<key>Name</key>
+				<string>QuickTime TeXML</string>
+			</dict>
+			<key>StandardMIDI</key>
+			<dict>
+				<key>Description</key>
+				<string>Standard MIDI file</string>
+				<key>Name</key>
+				<string>standard MIDI</string>
+			</dict>
+			<key>System7Sound</key>
+			<dict>
+				<key>Description</key>
+				<string>System 7 Sound file</string>
+				<key>Name</key>
+				<string>System 7 sound</string>
+			</dict>
+			<key>TextFile</key>
+			<dict>
+				<key>Description</key>
+				<string>Text file</string>
+				<key>Name</key>
+				<string>text file</string>
+			</dict>
+			<key>ThreeGPP</key>
+			<dict>
+				<key>Description</key>
+				<string>3GPP file</string>
+				<key>Name</key>
+				<string>ThreeGPP</string>
+			</dict>
+			<key>Wave</key>
+			<dict>
+				<key>Description</key>
+				<string>Wave file</string>
+				<key>Name</key>
+				<string>wave</string>
+			</dict>
+		</dict>
+		<key>ExportSettings</key>
+		<dict>
+			<key>DefaultSettings</key>
+			<dict>
+				<key>Description</key>
+				<string>export with default settings</string>
+				<key>Name</key>
+				<string>default settings</string>
+			</dict>
+			<key>MostRecentSettings</key>
+			<dict>
+				<key>Description</key>
+				<string>export with most recent settings</string>
+				<key>Name</key>
+				<string>most recent settings</string>
+			</dict>
+		</dict>
+		<key>FavoriteKind</key>
+		<dict>
+			<key>InternetLocation</key>
+			<dict>
+				<key>Description</key>
+				<string>an internet location</string>
+				<key>Name</key>
+				<string>internet location</string>
+			</dict>
+			<key>Unknown</key>
+			<dict>
+				<key>Description</key>
+				<string>unknown</string>
+				<key>Name</key>
+				<string>unknown</string>
+			</dict>
+		</dict>
+		<key>HotspotLinkType</key>
+		<dict>
+			<key>Link</key>
+			<dict>
+				<key>Description</key>
+				<string>link to another node in the VR movie</string>
+				<key>Name</key>
+				<string>link</string>
+			</dict>
+			<key>URL</key>
+			<dict>
+				<key>Description</key>
+				<string>link to an external destination described by URL</string>
+				<key>Name</key>
+				<string>URL</string>
+			</dict>
+			<key>Unknown</key>
+			<dict>
+				<key>Description</key>
+				<string>unknown link type</string>
+				<key>Name</key>
+				<string>unknown</string>
+			</dict>
+		</dict>
+		<key>IdentityMatrix</key>
+		<dict>
+			<key>IdentityMatrix</key>
+			<dict>
+				<key>Description</key>
+				<string>the identity matrix</string>
+				<key>Name</key>
+				<string>identity matrix</string>
+			</dict>
+		</dict>
+		<key>Justification</key>
+		<dict>
+			<key>Center</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text centered</string>
+				<key>Name</key>
+				<string>center</string>
+			</dict>
+			<key>Left</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text left justified</string>
+				<key>Name</key>
+				<string>left</string>
+			</dict>
+			<key>Right</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text right justified</string>
+				<key>Name</key>
+				<string>right</string>
+			</dict>
+		</dict>
+		<key>LoadState</key>
+		<dict>
+			<key>Complete</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie has loaded and all media is available</string>
+				<key>Name</key>
+				<string>complete</string>
+			</dict>
+			<key>LoadError</key>
+			<dict>
+				<key>Description</key>
+				<string>an error occurred which prevents the movie from loading</string>
+				<key>Name</key>
+				<string>load error</string>
+			</dict>
+			<key>LoadStateUnknown</key>
+			<dict>
+				<key>Description</key>
+				<string>the load state of the movie cannot be determined</string>
+				<key>Name</key>
+				<string>load state unknown</string>
+			</dict>
+			<key>Loaded</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie has loaded, but some media is still loading</string>
+				<key>Name</key>
+				<string>loaded</string>
+			</dict>
+			<key>Loading</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie is loading, but is unusable in its current state</string>
+				<key>Name</key>
+				<string>loading</string>
+			</dict>
+			<key>Playable</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie has loaded and sufficient media is available to begin playing</string>
+				<key>Name</key>
+				<string>playable</string>
+			</dict>
+			<key>PlaythroughOkay</key>
+			<dict>
+				<key>Description</key>
+				<string>the movie has loaded and remaining media should be avaiable when needed</string>
+				<key>Name</key>
+				<string>playthrough okay</string>
+			</dict>
+		</dict>
+		<key>MediaType</key>
+		<dict>
+			<key>3D</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickDraw 3D media</string>
+				<key>Name</key>
+				<string>3D</string>
+			</dict>
+			<key>Base</key>
+			<dict>
+				<key>Description</key>
+				<string>base media</string>
+				<key>Name</key>
+				<string>base</string>
+			</dict>
+			<key>Flash</key>
+			<dict>
+				<key>Description</key>
+				<string>Flash media</string>
+				<key>Name</key>
+				<string>Flash</string>
+			</dict>
+			<key>MPEG</key>
+			<dict>
+				<key>Description</key>
+				<string>MPEG media</string>
+				<key>Name</key>
+				<string>MPEG</string>
+			</dict>
+			<key>MPEGAudio</key>
+			<dict>
+				<key>Description</key>
+				<string>MPEG audio media</string>
+				<key>Name</key>
+				<string>MPEG Audio</string>
+			</dict>
+			<key>MPEGVideo</key>
+			<dict>
+				<key>Description</key>
+				<string>MPEG video media</string>
+				<key>Name</key>
+				<string>MPEG Video</string>
+			</dict>
+			<key>Music</key>
+			<dict>
+				<key>Description</key>
+				<string>music media</string>
+				<key>Name</key>
+				<string>music</string>
+			</dict>
+			<key>QuickTimeVR</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime VR media</string>
+				<key>Name</key>
+				<string>QuickTime VR</string>
+			</dict>
+			<key>Sound</key>
+			<dict>
+				<key>Description</key>
+				<string>sound media</string>
+				<key>Name</key>
+				<string>sound</string>
+			</dict>
+			<key>Sprite</key>
+			<dict>
+				<key>Description</key>
+				<string>sprite media</string>
+				<key>Name</key>
+				<string>sprite</string>
+			</dict>
+			<key>Streaming</key>
+			<dict>
+				<key>Description</key>
+				<string>stream media</string>
+				<key>Name</key>
+				<string>streaming</string>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Description</key>
+				<string>text media</string>
+				<key>Name</key>
+				<string>text</string>
+			</dict>
+			<key>Timecode</key>
+			<dict>
+				<key>Description</key>
+				<string>timecode media</string>
+				<key>Name</key>
+				<string>timecode</string>
+			</dict>
+			<key>Tween</key>
+			<dict>
+				<key>Description</key>
+				<string>tween media</string>
+				<key>Name</key>
+				<string>tween</string>
+			</dict>
+			<key>VRObject</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime VR object media</string>
+				<key>Name</key>
+				<string>VR object</string>
+			</dict>
+			<key>VRPanorama</key>
+			<dict>
+				<key>Description</key>
+				<string>QuickTime VR panorama media</string>
+				<key>Name</key>
+				<string>VR panorama</string>
+			</dict>
+			<key>Video</key>
+			<dict>
+				<key>Description</key>
+				<string>video media</string>
+				<key>Name</key>
+				<string>video</string>
+			</dict>
+		</dict>
+		<key>MoviePresentationMode</key>
+		<dict>
+			<key>Normal</key>
+			<dict>
+				<key>Description</key>
+				<string>present as a movie</string>
+				<key>Name</key>
+				<string>normal</string>
+			</dict>
+			<key>SlideShow</key>
+			<dict>
+				<key>Description</key>
+				<string>present as a slide show</string>
+				<key>Name</key>
+				<string>slide show</string>
+			</dict>
+		</dict>
+		<key>MovieSize</key>
+		<dict>
+			<key>Current</key>
+			<dict>
+				<key>Description</key>
+				<string>current size</string>
+				<key>Name</key>
+				<string>current</string>
+			</dict>
+			<key>Double</key>
+			<dict>
+				<key>Description</key>
+				<string>double size</string>
+				<key>Name</key>
+				<string>double</string>
+			</dict>
+			<key>Half</key>
+			<dict>
+				<key>Description</key>
+				<string>half size</string>
+				<key>Name</key>
+				<string>half</string>
+			</dict>
+			<key>Normal</key>
+			<dict>
+				<key>Description</key>
+				<string>normal size</string>
+				<key>Name</key>
+				<string>normal</string>
+			</dict>
+			<key>Screen</key>
+			<dict>
+				<key>Description</key>
+				<string>fit to screen</string>
+				<key>Name</key>
+				<string>screen</string>
+			</dict>
+		</dict>
+		<key>NavigationMode</key>
+		<dict>
+			<key>Absolute</key>
+			<dict>
+				<key>Description</key>
+				<string>absolute value</string>
+				<key>Name</key>
+				<string>absolute</string>
+			</dict>
+			<key>Relative</key>
+			<dict>
+				<key>Description</key>
+				<string>relative value</string>
+				<key>Name</key>
+				<string>relative</string>
+			</dict>
+		</dict>
+		<key>NudgeDirection</key>
+		<dict>
+			<key>Down</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge down</string>
+				<key>Name</key>
+				<string>down</string>
+			</dict>
+			<key>DownLeft</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge down left</string>
+				<key>Name</key>
+				<string>down left</string>
+			</dict>
+			<key>DownRight</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge down right</string>
+				<key>Name</key>
+				<string>down right</string>
+			</dict>
+			<key>Left</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge left</string>
+				<key>Name</key>
+				<string>left</string>
+			</dict>
+			<key>Right</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge right</string>
+				<key>Name</key>
+				<string>right</string>
+			</dict>
+			<key>Up</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge up</string>
+				<key>Name</key>
+				<string>up</string>
+			</dict>
+			<key>UpLeft</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge up left</string>
+				<key>Name</key>
+				<string>up left</string>
+			</dict>
+			<key>UpRight</key>
+			<dict>
+				<key>Description</key>
+				<string>nudge up right</string>
+				<key>Name</key>
+				<string>up right</string>
+			</dict>
+		</dict>
+		<key>QTVRType</key>
+		<dict>
+			<key>Object</key>
+			<dict>
+				<key>Description</key>
+				<string>object movie type</string>
+				<key>Name</key>
+				<string>object</string>
+			</dict>
+			<key>Panorama</key>
+			<dict>
+				<key>Description</key>
+				<string>panorama movie type</string>
+				<key>Name</key>
+				<string>panorama</string>
+			</dict>
+		</dict>
+		<key>QuickTimeConnectionSpeed</key>
+		<dict>
+			<key>112KDualISDN</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 112 Kbps dual ISDN/DSL connection</string>
+				<key>Name</key>
+				<string>112K Dual ISDN</string>
+			</dict>
+			<key>14.4Modem</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 14.4 Kbps modem connection (obsolete)</string>
+				<key>Name</key>
+				<string>14.4 Modem</string>
+			</dict>
+			<key>1Mbps</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 1 Mbps cable connection</string>
+				<key>Name</key>
+				<string>1 Mbps</string>
+			</dict>
+			<key>256Kbps</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 256 Kbps DSL/cable connection</string>
+				<key>Name</key>
+				<string>256 Kbps</string>
+			</dict>
+			<key>28.8/33.6Modem</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 28.8/33.6 Kbps modem connection</string>
+				<key>Name</key>
+				<string>28.8/33.6 Modem</string>
+			</dict>
+			<key>384Kbps</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 384 Kbps DSL/cable connection</string>
+				<key>Name</key>
+				<string>384 Kbps</string>
+			</dict>
+			<key>512Kbps</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 512 Kbps DSL/cable connection</string>
+				<key>Name</key>
+				<string>512 Kbps</string>
+			</dict>
+			<key>56KModem/ISDN</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 56 Kbps/ISDN connection</string>
+				<key>Name</key>
+				<string>56K Modem/ISDN</string>
+			</dict>
+			<key>768Kbps</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 768 Kbps DSL/cable connection</string>
+				<key>Name</key>
+				<string>768 Kbps</string>
+			</dict>
+			<key>Intranet/LAN</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for Intranet/LAN connection</string>
+				<key>Name</key>
+				<string>Intranet/LAN</string>
+			</dict>
+			<key>T1</key>
+			<dict>
+				<key>Description</key>
+				<string>play media for 1.5 Mbps T1/Intranet/LAN connection</string>
+				<key>Name</key>
+				<string>T1</string>
+			</dict>
+		</dict>
+		<key>RecordingState</key>
+		<dict>
+			<key>Paused</key>
+			<dict>
+				<key>Description</key>
+				<string>recording paused</string>
+				<key>Name</key>
+				<string>paused</string>
+			</dict>
+			<key>Previewing</key>
+			<dict>
+				<key>Description</key>
+				<string>previewing and ready to record</string>
+				<key>Name</key>
+				<string>previewing</string>
+			</dict>
+			<key>Recording</key>
+			<dict>
+				<key>Description</key>
+				<string>recording in progress</string>
+				<key>Name</key>
+				<string>recording</string>
+			</dict>
+		</dict>
+		<key>SaveOption</key>
+		<dict>
+			<key>SelfContained</key>
+			<dict>
+				<key>Description</key>
+				<string>a self contained movie file</string>
+				<key>Name</key>
+				<string>self contained</string>
+			</dict>
+		</dict>
+		<key>SearchDirection</key>
+		<dict>
+			<key>Backward</key>
+			<dict>
+				<key>Description</key>
+				<string>search backward</string>
+				<key>Name</key>
+				<string>backward</string>
+			</dict>
+			<key>Forward</key>
+			<dict>
+				<key>Description</key>
+				<string>search forward</string>
+				<key>Name</key>
+				<string>forward</string>
+			</dict>
+		</dict>
+		<key>Style</key>
+		<dict>
+			<key>Bold</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text bold</string>
+				<key>Name</key>
+				<string>bold</string>
+			</dict>
+			<key>Condense</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text condensed</string>
+				<key>Name</key>
+				<string>condense</string>
+			</dict>
+			<key>Extend</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text extended</string>
+				<key>Name</key>
+				<string>extend</string>
+			</dict>
+			<key>Italic</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text italic</string>
+				<key>Name</key>
+				<string>italic</string>
+			</dict>
+			<key>Outline</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text outlined</string>
+				<key>Name</key>
+				<string>outline</string>
+			</dict>
+			<key>Plain</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text plain</string>
+				<key>Name</key>
+				<string>plain</string>
+			</dict>
+			<key>Shadow</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text with shadow</string>
+				<key>Name</key>
+				<string>shadow</string>
+			</dict>
+			<key>Underline</key>
+			<dict>
+				<key>Description</key>
+				<string>draw text with underline</string>
+				<key>Name</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<key>TextScrollOperation</key>
+		<dict>
+			<key>FlowHorizontal</key>
+			<dict>
+				<key>Description</key>
+				<string>flow text in textbox</string>
+				<key>Name</key>
+				<string>flow horizontal</string>
+			</dict>
+			<key>ScrollContinuous</key>
+			<dict>
+				<key>Description</key>
+				<string>scroll text out in response to next text scrolling in</string>
+				<key>Name</key>
+				<string>scroll continuous</string>
+			</dict>
+			<key>ScrollHorizontal</key>
+			<dict>
+				<key>Description</key>
+				<string>scroll text horizontally (default is vertically)</string>
+				<key>Name</key>
+				<string>scroll horizontal</string>
+			</dict>
+			<key>ScrollIn</key>
+			<dict>
+				<key>Description</key>
+				<string>scroll text in until all text is visible</string>
+				<key>Name</key>
+				<string>scroll in</string>
+			</dict>
+			<key>ScrollOut</key>
+			<dict>
+				<key>Description</key>
+				<string>scroll text out until all text is gone</string>
+				<key>Name</key>
+				<string>scroll out</string>
+			</dict>
+			<key>ScrollReverse</key>
+			<dict>
+				<key>Description</key>
+				<string>scroll text down or backwards (depending on current scroll direction)</string>
+				<key>Name</key>
+				<string>scroll reverse</string>
+			</dict>
+		</dict>
+		<key>TransferMode</key>
+		<dict>
+			<key>Blend</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using blend mode</string>
+				<key>Name</key>
+				<string>blend</string>
+			</dict>
+			<key>Composition</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using composition (dither copy) mode</string>
+				<key>Name</key>
+				<string>composition</string>
+			</dict>
+			<key>DitherCopy</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using dither copy mode</string>
+				<key>Name</key>
+				<string>dither copy</string>
+			</dict>
+			<key>NoDitherCopy</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using copy mode</string>
+				<key>Name</key>
+				<string>no dither copy</string>
+			</dict>
+			<key>PremulBlackAlpha</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using premul black alpha mode</string>
+				<key>Name</key>
+				<string>premul black alpha</string>
+			</dict>
+			<key>PremulWhiteAlpha</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using premul white alpha mode</string>
+				<key>Name</key>
+				<string>premul white alpha</string>
+			</dict>
+			<key>StraightAlpha</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using straight alpha mode</string>
+				<key>Name</key>
+				<string>straight alpha</string>
+			</dict>
+			<key>StraightAlphaBlend</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using straight alpha blend mode</string>
+				<key>Name</key>
+				<string>straight alpha blend</string>
+			</dict>
+			<key>TransferModeUnknown</key>
+			<dict>
+				<key>Description</key>
+				<string>transfer mode is unknown or not applicable</string>
+				<key>Name</key>
+				<string>transfer mode unknown</string>
+			</dict>
+			<key>Transparent</key>
+			<dict>
+				<key>Description</key>
+				<string>draw image using transparent mode</string>
+				<key>Name</key>
+				<string>transparent</string>
+			</dict>
+		</dict>
+		<key>ZoomDirection</key>
+		<dict>
+			<key>Inward</key>
+			<dict>
+				<key>Description</key>
+				<string>zoom inward</string>
+				<key>Name</key>
+				<string>inward</string>
+			</dict>
+			<key>Outward</key>
+			<dict>
+				<key>Description</key>
+				<string>zoom outward</string>
+				<key>Name</key>
+				<string>outward</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>QuickTime Player Suite</string>
+</dict>
+</plist>

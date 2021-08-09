@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Tilpasse indstillinger til videoeksport</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Læs om de tilgængelige videomuligheder, når du eksporterer en film med QuickTime Player.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Hjælp til QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="Symbol for QuickTime-kategori" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Tilpasse indstillinger til videoeksport</h1>
+			</div>
+			<h4>Du tilpasser videoindstillinger til eksport på følgende måde:</h4>
+			<ol type="1">
+				<li value="1">Vælg Arkiv &gt; Eksporter.
+				<li value="2">Vælg et arkivformat på lokalmenuen Eksporter.
+				<li value="3">Klik på Valg.
+				<li value="4">I videoområdet i dialogen Filmindstillinger skal du klikke på Instillinger og vælge dine indstillinger.
+					<p>Komprimering: Vælg den komprimeringstype (codec), du vil bruge til komprimering af videoen. H.264 anbefales til den højeste kvalitet ved den laveste datafrekvens (eller det mindste arkiv).</p>
+					<p>Datafrekvens (bithastighed): Normalt er en højere datafrekvens lig med bedre kvalitet, men et større arkiv. I de fleste tilfælde kan du vælge en datafrekvens, der passer til den måde, filmen skal vises på. Til streaming til opkaldsforbindelser til Internet skal du f.eks. begrænse datafrekvensen til omkring 45 kilobit pr. sekund for at give plads til netværkstrafik. Hvis arkivet skal overføres til afspilning, kan datafrekvensen være højere (brugere af et 56 K-modem skal dog vente længere, før afspilningen starter). En films datafrekvens påvirkes også af, hvilke andre komprimeringsindstillinger du vælger, f.eks. antallet af klippunkter. Du kan vælge Automatisk for at lade komprimeringsværktøjet vælge en passende datafrekvens.</p>
+					<p>Optimeret til: Vælg den ønskede leveringsmetode på lokalmenuen "Optimeret til". Denne indstilling fortæller codec, hvor meget datafrekvensen kan variere over eller under den valgte datafrekvens. Denne mulighed findes kun til komprimeringsværktøjer, der kan anvende begrænsninger, f.eks. H.264.</p>
+					<p>Valg til klippunkter: Mange komprimeringsværktøjer bruger "frame differencing" til komprimering af levende billeder. Det betyder, at QuickTime registrerer, hvilke data der er ændret i forhold til et bestemt billede, som kaldes et klippunkt. Klippunktet indeholder alle data til et bestemt billede. De efterfølgende billeder indeholder kun de data, der er ændret i forhold til klippunktet.</p>
+					<p>Du kan vælge, hvor langt der skal være mellem klippunkterne, afhængigt af den komprimeringsmetode du bruger. Hvis der ikke er nok klippunkter, kan filmens kvalitet blive dårligere, fordi de fleste billeder fremstilles på grundlag af andre billeder. Hvis du bruger for mange klippunkter, kommer filmen til at fylde mere, og datafrekvensen bliver større. Med nogle komprimeringsmetoder indsætter QuickTime automatisk et klippunkt, hvis mange af dataene er ændret. En god tommelfingerregel til almindelig brug er, at der skal være et klippunkt for hvert 5. sekund (gang antallet af billeder pr. sekund med 5). Hvis du opretter et arkiv til RTSP-streaming og er bekymret for netværkets driftsikkerhed (som med det offentlige Internet), kan du forøge frekvensen af klippunkter til et klippunkt for hvert 1 eller 2 sekunder. Vælg Automatisk, hvis komprimeringsværktøjet selv skal bestemme intervallet mellem klippunkter.</p>
+				<li>Billedfrekvens: Billedfrekvensen er antallet af billeder, der vises pr. sekund. En standardvideo (NTSC) har en billedfrekvens på 29,97 billeder pr. sekund, og standarden for film er 24 billeder pr. sekund. Den europæiske standard (PAL) er 25 billeder pr. sekund. QuickTime-film oprettes sommetider med en lavere billedfrekvens for at nedbringe kravene til båndbredde og processor.
+					<p>Film med højere billedfrekvenser er bedre til at vise bevægelse, men arkiverne fylder mere. Hvis du vælger et tal, der er lavere end filmens aktuelle billedfrekvens, bliver der slettet nogle billeder. Hvis du vælger et tal, der er højere end filmens nuværende billedfrekvens, dubleres eksisterende billeder (anbefales ikke, da det forøger arkivstørrelsen uden at forbedre kvaliteten). Når du vælger en billedfrekvens, skal du vælge en enkel deling af din nuværende billedfrekvens, som f.eks. 1/2, 1/3 osv. Hvis den aktuelle billedfrekvens f.eks. er 30 (29,97), skal du bruge 15, eller 10.</p>
+				<li>Andre muligheder: Nogle komprimeringsmetoder eller codecs har deres egne muligheder. Når du har valgt en komprimeringsmetode (codec), vil de specielle muligheder vises.
+			</ol>
+		</div>
+	</body>
+
+</html>

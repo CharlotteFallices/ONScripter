@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>QTPExportRefMovieForWebExportTargetiPhone</key>
+	<dict>
+		<key>DataRate</key>
+		<integer>100000</integer>
+		<key>FileSuffix</key>
+		<string>-iPhone</string>
+		<key>SettingsFile</key>
+		<string>exportForWeb-iPhone</string>
+        <key>Version</key>
+        <string>iPhone</string>
+	</dict>
+	<key>QTPExportRefMovieForWebExportTargetiPhoneCell</key>
+	<dict>
+		<key>DataRate</key>
+		<integer>11200</integer>
+		<key>FileSuffix</key>
+		<string>-iPhone-cell</string>
+		<key>SettingsFile</key>
+		<string>exportForWeb-iPhone-cell</string>
+        <key>Version</key>
+        <string>iPhone</string>
+	</dict>
+	<key>QTPExportRefMovieForWebExportTargetWeb</key>
+	<dict>
+		<key>DataRate</key>
+		<integer>2800</integer>
+		<key>FileSuffix</key>
+		<string>-desktop</string>
+		<key>SettingsFile</key>
+		<string>exportForWeb-web-high</string>
+	</dict>
+</dict>
+</plist>

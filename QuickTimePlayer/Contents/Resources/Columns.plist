@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Center</string>
+			<key>Editable</key>
+			<true/>
+			<key>Type</key>
+			<string>CheckBox</string>
+			<key>Width</key>
+			<integer>16</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Enabled</string>
+		<key>Key</key>
+		<string>decoded</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Left</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>32</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>ID</string>
+		<key>Key</key>
+		<string>trackID</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Left</string>
+			<key>Editable</key>
+			<true/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Object</string>
+		<key>Key</key>
+		<string>stringForList</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Start Time</string>
+		<key>Key</key>
+		<string>startTimeString</string>
+		<key>Sort Key</key>
+		<string>startTimeInSeconds</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Stop Time</string>
+		<key>Key</key>
+		<string>stopTimeString</string>
+		<key>Sort Key</key>
+		<string>stopTimeInSeconds</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Duration</string>
+		<key>Key</key>
+		<string>durationString</string>
+		<key>Sort Key</key>
+		<string>durationInSeconds</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>TimeCode Start</string>
+		<key>Key</key>
+		<string>timeCodeStartString</string>
+		<key>Sort Key</key>
+		<string>startTimeInSeconds</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>TimeCode Stop</string>
+		<key>Key</key>
+		<string>timeCodeStopString</string>
+		<key>Sort Key</key>
+		<string>stopTimeInSeconds</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Data Size</string>
+		<key>Key</key>
+		<string>dataSizeString</string>
+		<key>Sort Key</key>
+		<string>dataSize</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Data Rate</string>
+		<key>Key</key>
+		<string>dataRateString</string>
+		<key>Sort Key</key>
+		<string>dataRate</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Channels</string>
+		<key>Key</key>
+		<string>channels</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Left</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Format</string>
+		<key>Key</key>
+		<string>format</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+			<key>Format</key>
+			<string>#.##</string>
+		</dict>
+		<key>Identifier</key>
+		<string>Frame Rate</string>
+		<key>Key</key>
+		<string>framesPerSecond</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Sample Rate</string>
+		<key>Key</key>
+		<string>sampleRateString</string>
+	</dict>
+	<dict>
+		<key>Display Info</key>
+		<dict>
+			<key>Alignment</key>
+			<string>Right</string>
+			<key>Editable</key>
+			<false/>
+			<key>Type</key>
+			<string>TextField</string>
+			<key>Width</key>
+			<integer>96</integer>
+		</dict>
+		<key>Identifier</key>
+		<string>Sample Size</string>
+		<key>Key</key>
+		<string>sampleSizeString</string>
+	</dict>
+</array>
+</plist>

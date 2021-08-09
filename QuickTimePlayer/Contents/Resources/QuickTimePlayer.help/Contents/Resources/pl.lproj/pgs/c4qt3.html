@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Dostosowywanie ustawień eksportowania wideo</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Poznaj opcje wideo dostępne podczas eksportowania filmu za pomocą programu QuickTime Player.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Pomoc programu QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="ikona kategorii QuickTime" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Dostosowywanie ustawień eksportowania wideo</h1>
+			</div>
+			<h4>Jak dostosować ustawienia eksportowania wideo?</h4>
+			<ol type="1">
+				<li value="1">Wybierz polecenie Plik &gt; Eksportuj.
+				<li value="2">Z menu Eksport wybierz format pliku.
+				<li value="3">Kliknij w Opcje.
+				<li value="4">W części Wideo okna dialogowego Ustawienia filmu kliknij w Ustawienia i dostosuj następujące ustawienia:
+					<p>Rodzaj kompresji: Wybierz kompresor wideo (kodek), który ma zostać wykorzystany do skompresowania wideo. W celu uzyskania najwyższej jakości przy zachowaniu najniższej szybkości przepływu danych (najmniejszego rozmiaru pliku), zaleca się zastosowanie H.264.</p>
+					<p>Szybkość przepływu danych (szybkość transmisji): W ogólności im większa szybkość przepływu danych, tym lepsza jakość ale też większy rozmiar pliku. W większości przypadków szybkość transmisji dobiera się do sposobu emisji i odbioru filmu. Dla przykładu, przy emisji strumieniowej dla połączeń komutowanych ogranicz przepływ danych do 45 kilobitów na sekundę, aby pozostawić wolne pasmo na zwykły ruch sieciowy. Jeżeli plik będzie pobierany przed odtwarzaniem, przepływ danych może być wyższy (użytkownik modemu 56K będzie musiał jednakże dłużej czekać, zanim zacznie się odtwarzanie filmu). Na szybkość przepływu danych wpływ mają również inne ustawienia kompresji, takie jak szybkość wyświetlania klatek. Aby kompresor mógł sam dobrać odpowiednią szybkość przesyłu danych, wybierz Automatycznie.</p>
+					<p>Optymalizacja dla: Wybierz zamierzony sposób publikacji z menu „Optymalizacja dla”. To ustawienie określa, jak bardzo może wahać się w górę i w dół szybkość przepływu danych w stosunku do określonej wartości. To ustawienie pojawi się wyłącznie w przypadku kompresorów mogących zdefiniować ograniczenia, na przykład H.264.</p>
+					<p>Opcje Klatki kluczowej: Wiele kompresorów wykorzystuje „porównywanie klatek” do kompresowania obrazu przedstawiającego ruch. Porównywanie klatek polega na określeniu zmian jakie zaszły w obrazie poszczególnych klatek w porównaniu do początkowej klatki (zwanej „klatką kluczową”). Klatka kluczowa zawiera pełną informację o obrazie. Kolejne klatki zawierają jedynie informacje o zmienionych obszarach obrazu.</p>
+					<p>W zależności od wybranego kompresora, można zdecydować jak często ma pojawiać się klatka kluczowa. Zbyt mała ilość klatek kluczowych powoduje pogorszenie jakości filmu, ponieważ większość klatek tworzonych jest z klatek poprzedzających. Jednakże więcej klatek kluczowych to większy plik filmu i wyższy przepływ danych. Niektóre kompresory automatycznie dodają klatkę kluczową w miejscach, gdzie zbyt duży obszar obrazu ulega zmianie. Dobrą zasadą jest wstawienie jednej klatki kluczowej co 5 sekund (należy pomnożyć szybkość wyświetlania klatek na sekundę przez 5). Przygotowując film do przekazu strumieniowego RTSP i obawiając się o przepustowość sieci odbiorców (na przykład korzystających z łączy dodzwanianych), można zwiększyć częstotliwość klatek kluczowych do 1 co 1-2 sekundy. Aby kompresor sam dobrał częstotliwość umieszczenia klatek kluczowych, wybierz Automatycznie.</p>
+				<li>Szybkość wyświetlania klatek: Szybkość wyświetlania klatek to ilość pojedynczych obrazów wyświetlanych w ciągu sekundy. Szybkość wyświetlania klatek dla wideo NTSC wynosi 29,97 klatek na sekundę, dla filmu 24 kl/s. W Europie (PAL) to 25 klatek na sekundę (kl/s). Filmy QuickTime tworzone są czasem z mniejszą szybkością wyświetlania klatek w celu zmniejszenia zapotrzebowania na moc procesora i przepustowość sieci.
+					<p>Filmy o wyższej szybkości wyświetlania klatek płynniej pokazują ruch, ale wiąże się to z większymi plikami. Po wybraniu szybkości wyświetlania klatek niższej niż oryginalna, część klatek zostanie usunięta. Wybranie wyższej niż oryginalna szybkości wyświetlania klatek spowoduje powielenie części z nich, lecz nie jest to polecane rozwiązanie, ponieważ powoduje wzrost rozmiaru pliku bez poprawienia jakości wideo. Przy wyborze nowej szybkości najlepiej wybrać ułamek szybkości oryginalnej, 1/2, 1/3, itd. Na przykład jeżeli szybkość oryginalna to 30 (29,97) kl/s, można wybrać 15 lub 10 kl/s.</p>
+				<li>Inne opcje: Po wybraniu niektórych kompresorów lub kodeków pojawią się dodatkowe ustawienia specyficzne tylko dla nich. Po wybraniu kompresora (kodeka), pojawią się dodatkowe opcje.
+			</ol>
+		</div>
+	</body>
+
+</html>

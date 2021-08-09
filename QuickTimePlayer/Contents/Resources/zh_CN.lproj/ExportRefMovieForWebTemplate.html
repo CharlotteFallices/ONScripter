@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime 专业版 - 导出给 Web - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1>有关将 <i>$(TITLE)</i> 发布到网站的指示</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p>您已使用“QuickTime 专业版”导出了 <i>$(TITLE)</i>。以下信息将帮助您将此影片发布到网站。</p>
+	<p>“QuickTime 专业版”在此 HTML 指示文件的同一文件夹中放置了为通过 Web 传送而优化了的影片的多种版本。在那个文件夹中还有参考影片，它能够为您的用户的多种设备和连接速度选择最佳版本。您可以通过将此参考影片包括在 HTML 页面中，来确保站点的访客们都能享受到高质量的视频。</p>
+	<p>此处为预览（要求 Internet 连接）：</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('点按以播放', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>使用以下 HTML 代码将影片嵌入至您的网页中。</p>
+	<h3>重要注释：</h3>
+	<ul>
+		<li>要使您的媒体在 Internet 上可见，媒体资源（影片、海报图像）必须放置在可以公开访问的服务器上。</li>
+		<li>如果您的媒体资源是从网页以外的位置提供，那么必须修改 URL 参数。</li>
+		<li>影片 URL 参数必须总是指向参考影片 (<a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a>) 而不是源影片。</li>
+		<li>参考影片必须保存在源影片的同一文件夹中。</li>
+		<li>您不能更改源影片的名称，但可以更改参考影片的名称（请务必在 HTML 代码中也更改它）。</li>
+		<li>请注意，为了使其成为有效的 XHTML，<code>&lt;style&gt;</code> 标签和首个 <code>&lt;script&gt;</code> 标签必须位于页面的 <code>&lt;head&gt;</code> 标签内。</li>
+	</ul>
+	</p>
+
+<p>请在您的网页的 <code>&lt;head&gt;</code> 中使用此代码：</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p>请在您的网页的 <code>&lt;body&gt;</code> 中使用此代码：</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('点按以播放', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>导出的：</h3>
+<ul>
+	<li>参考影片：
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>标志帧：
+  <ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>版本：
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

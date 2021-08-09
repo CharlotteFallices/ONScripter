@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Cómo personalizar los ajustes de exportación de vídeo</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Información acerca de las opciones de vídeo disponibles cuando se exporta una película con QuickTime Player.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Ayuda QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="Icono de categoría QuickTime" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Cómo personalizar los ajustes de exportación de vídeo</h1>
+			</div>
+			<h4>Para personalizar los ajustes de exportación de vídeo:</h4>
+			<ol type="1">
+				<li value="1">Seleccione Archivo &gt; Exportar.
+				<li value="2">Seleccione un formato de archivo en el menú local Exportar.
+				<li value="3">Haga clic en Opciones.
+				<li value="4">En la sección Vídeo del cuadro de diálogo "Ajustes de la película", haga clic en Ajustes y seleccione sus ajustes.
+					<p>Tipo de compresión: seleccione el compresor de vídeo (códec) que desee utilizar para comprimir el vídeo. Para obtener la máxima calidad a la velocidad de datos mínima (o el archivo más pequeño), se recomienda utilizar el formato H.264.</p>
+					<p>Velocidad de transferencia de datos (velocidad de bits): en general, cuanto mayor sea la velocidad de datos, mejor será la calidad, pero mayor será el archivo. En la mayoría de los casos, podrá establecer la velocidad de transferencia de datos en función del modo de visualización de la película. Por ejemplo, en el caso de transmisiones en tiempo real con conexiones de acceso telefónico a Internet, es necesario limitar la velocidad de datos a unos 45 kilobits por segundo antes de mezclarse con el tráfico de red. Si el archivo va a descargarse para reproducirse, la velocidad de datos puede ser mayor (no obstante, un usuario con una conexión de módem de 56 K tendrá que esperar más tiempo hasta que comience la reproducción). La velocidad de transmisión de datos de una película depende de las restantes opciones de compresión que se seleccionen, como la frecuencia de fotogramas. Para permitir que el compresor seleccione una velocidad de datos adecuada, seleccione Automática.</p>
+					<p>Optimizado para: seleccione el método de distribución deseado en el menú local Optimizado Para. Este ajuste indica al códec cuánto puede variar la velocidad de datos por encima o por debajo de la velocidad de datos seleccionada. Esta opción solo estará disponible para los compresores que puedan aplicar límites, como H.264.</p>
+					<p>Opciones del fotograma de referencia: muchos compresores utilizan la "diferenciación de fotogramas" para comprimir imágenes en movimiento. La diferenciación de fotogramas es el procedimiento mediante el que se determina la información que ha variado entre un fotograma inicial (denominado "referencia") y los fotogramas siguientes. La referencia contiene toda la información de la imagen. Los fotogramas siguientes contienen únicamente la información que ha variado.</p>
+					<p>Según el compresor que utilice, puede especificar la frecuencia con la que se reproducen las referencias. Si no dispone de referencias suficientes, la calidad de la película puede verse mermada, ya que la mayoría de los fotogramas se generarán a partir de otros. No obstante, si aumenta el número de referencias también serán mayores el tamaño del archivo y la velocidad de transmisión de datos. Con algunos compresores, se inserta automáticamente una referencia adicional si ha variado una parte considerable de la imagen entre un fotograma y el siguiente. Una buena regla general consiste en utilizar un fotograma de referencia cada 5 segundos (multiplicar el número de fotogramas por segundo por 5). Si está creando un archivo para transmitirlo en tiempo real mediante RTSP y le preocupa la fiabilidad de la red de distribución (así como la de las conexiones públicas a Internet), puede aumentar la frecuencia de fotogramas de referencia a un fotograma de referencia cada 1 o 2 segundos. Para permitir que el compresor elija el intervalo, seleccione Automática.</p>
+				<li>Frecuencia de fotogramas: la frecuencia de fotogramas es el número de imágenes que se visualizan por segundo. La frecuencia de un formato de vídeo estándar (NTSC) es de 29,97 fotogramas por segundo (fps), y la frecuencia estándar de una película original es de 24 fps. Para el formato de vídeo estándar en Europa (PAL), la frecuencia de fotogramas es de 25 fps. En ocasiones, las películas QuickTime se crean con una frecuencia de fotogramas inferior para disminuir los requisitos de ancho de banda y de procesador exigidos.
+					<p>Las películas con una frecuencia de fotogramas mayor ofrecen una mejor calidad de reproducción, si bien el tamaño de sus archivos es mayor. Si selecciona una frecuencia de fotogramas más baja que la frecuencia actual de la película, algunos fotogramas se eliminarán. Si selecciona un número superior a la frecuencia de fotogramas actual de la película, los fotogramas existentes se duplicarán (no se recomienda, ya que aumenta el tamaño del archivo pero no la calidad). A la hora de seleccionar la frecuencia de fotogramas, utilice una simple fracción de la frecuencia actual, como 1/2, 1/3, etc. Por ejemplo, si la frecuencia actual es 30 (29,97), utilice 15 o 10.</p>
+				<li>Otras opciones: algunos compresores o códecs ofrecen opciones específicas para el códec. Una vez seleccionado el compresor (códec), aparecerán todas las opciones especiales.
+			</ol>
+		</div>
+	</body>
+
+</html>

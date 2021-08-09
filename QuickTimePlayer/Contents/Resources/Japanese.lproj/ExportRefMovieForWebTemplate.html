@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime Pro - Web 用に書き出す - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1><i>$(TITLE)</i> を Web サイトにポストする方法</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p><i>$(TITLE)</i> は、QuickTime Pro を使って書き出されました。以下は、このムービーをご自分の Web サイトにポストする際に役に立つ情報です。</p>
+	<p>この HTML ファイルと同じフォルダに、Web 経由の配信に最適化されたさまざまなバージョンのムービーが置かれています。また、同じフォルダに、ユーザの方が使用しているデバイスや接続速度に最適なバージョンを選択する参照ムービーも含まれています。ご自分の HTML ページにこの参照ムービーを含めることによって、サイトで質の高いビデオ機能を提供できます。</p>
+	<p>これはプレビューです（インターネット接続が必要です）：</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('クリックして再生', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>ムービーをご自分の Web ページに埋め込むときは、以下の HTML コードをお使いください。</p>
+	<h3>重要なご注意：</h3>
+	<ul>
+		<li>メディアをインターネット上で視聴できるようにするには、メディア・アセット（ムービーやポスターイメージ）をだれでもアクセスできるサーバ上に置く必要があります。</li>
+		<li>お使いのメディア・アセットがご自分の Web ページとは異なる場所にある場合、URL のパラメータを変更する必要があります。</li>
+		<li>ムービーの URL のパラメータは、ソースムービーではなく、必ず、参照ムービー（<a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a>）をポイントする必要があります。</li>
+		<li>参照ムービーは、ソースムービーと同じフォルダ内に保存する必要があります。</li>
+		<li>ソースムービーの名前は変更できませんが、参照ムービーの名前は変更できます（HTML コードでも名前を変更するのを忘れないでください）。</li>
+		<li>XHTML として有効にするには、<code>&lt;style&gt;</code> タグと最初の <code>&lt;script&gt;</code> タグをページの <code>&lt;head&gt;</code> タグ内に配置する必要があることに注意してください。</li>
+	</ul>
+	</p>
+
+<p>ご自分の Web ページの <code>&lt;head&gt;</code> 内に、以下のコードをお使いください</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p>ご自分の Web ページの <code>&lt;body&gt;</code> 内に、以下のコードをお使いください：</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('クリックして再生', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>書き出されたもの：</h3>
+<ul>
+	<li>参照ムービー：
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>ポスターフレーム：
+		<ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>バージョン：
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

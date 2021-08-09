@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Personalizzare le impostazioni di esportazione video</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Informazioni sulle opzioni video disponibili quando esporti un filmato con QuickTime Player.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Aiuto QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="Icona categoria QuickTime" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Personalizzare le impostazioni di esportazione video</h1>
+			</div>
+			<h4>Per personalizzare le impostazioni video per l'esportazione:</h4>
+			<ol type="1">
+				<li value="1">Scegli Archivio &gt; Esporta (in Windows, File &gt; Esporta).
+				<li value="2">Scegli un formato documento nel menu a comparsa Esporta.
+				<li value="3">Fai clic su Opzioni.
+				<li value="4">Nell'area Video della finestra di dialogo Impostazioni filmato, fai clic su Impostazioni e scegli le opzioni che desideri.
+					<p>Tipo di compressione: seleziona il compressore (codec) video che vuoi utilizzare per comprimere il video. Per la qualità più elevata con la frequenza dati inferiore (o con il documento più piccolo), è consigliato H.264.</p>
+					<p>Frequenza dati (frequenza bit):  generalmente, con la velocità dati più elevata, migliore è la qualità, ma più grande risulta il documento. Nella maggior parte dei casi, la frequenza dei dati deve essere impostata basandosi sul tipo di visualizzazione futura del filmato. Ad esempio, per connessioni telefoniche a Internet per streaming, devi limitare la velocità a circa 45 kilobit per secondo per lasciare spazio per il traffico della rete. Se il file è scaricato per la riproduzione, la velocità dati può essere superiore (un utente con 56K, tuttavia, dovrà attendere più tempo per l'inizio della riproduzione). La frequenza dati di un filmato è, inoltre, influenzata da altre opzioni di compressione impostate, quali la frequenza fotogrammi. Per lasciare che il compressore scelga una velocità dati appropriata, selezionare Automatico.</p>
+					<p>Ottimizzato per: scegli il metodo d'invio che intendi utilizzare nel menu a comparsa "Ottimizzato per". Questa impostazione informa il codec di quanto può variare la velocità dati al di sopra o al di sotto della velocità scelta da te. Questa opzione è disponibile solo per quei compressori che applicano i limiti, come gli H.264.</p>
+					<p>Opzioni riferimento: molti compressori si servono della "differenziazione dei fotogrammi" per comprimere le immagini mobili. La differenziazione dei fotogrammi consiste nell'identificazione della quantità di informazioni variate nei fotogrammi successivi ad un fotogramma di partenza (chiamato "fotogramma di riferimento"). Il fotogramma di riferimento contiene tutte le informazioni relative ad un'immagine specifica. I fotogrammi successivi contengono solo le informazioni cambiate.</p>
+					<p>A seconda del compressore che utilizzi, puoi specificare con quale frequenza vuoi che si presentino i fotogrammi di riferimento. In mancanza di un numero sufficiente di fotogrammi di riferimento, la qualità del filmato potrebbe essere molto bassa, poiché la maggior parte dei fotogrammi è generata da altri fotogrammi. Tuttavia, in un filmato più lungo con un numero maggiore di dati appaiono più fotogrammi di riferimento. Con alcuni metodi di compressione, un fotogramma di riferimento viene inserito automaticamente, qualora l'immagine sia variata troppo da un fotogramma all'altro. Una buona regola per l'utilizzo generale è avere un riferimento ogni 5 secondi (moltiplica i fotogrammi al secondo per 5). Se stai creando un file per lo streaming RTSP e ti preoccupa l'affidabilità della rete per l'invio (come Internet), potresti aumentare la frequenza del riferimento a un riferimento ogni secondo o due. Per fare sì che il compressore determini l'intervallo del riferimento, seleziona Automatico.</p>
+				<li>Frequenza immagini: è il numero di immagini singole mostrato ogni secondo. Un video standard (NTSC) ha una frequenza di 29,97 fps (fotogrammi per secondo) e lo standard per un film è 24 fotogrammi per secondo. Lo standard europeo (PAL) è di 25 fps. Talvolta, i filmati QuickTime vengono creati a una frequenza fotogrammi più bassa per ridurre i requisiti di larghezza banda e CPU.
+					<p>I filmati con frequenza fotogrammi molto alta vengono visualizzati meglio ma hanno una dimensione più grande. Se scegli una frequenza fotogrammi inferiore a quella effettiva del filmato, la compressione eliminerà alcuni fotogrammi. Se scegli un numero più alto di quello della frequenza  del filmato attuale, i fotogrammi esistenti verranno duplicati (non è raccomandabile poiché la dimensione di un file verrà aumentata senza migliorarne la qualità). Quando scegli una frequenza fotogrammi, utilizza una semplice frazione della frequenza fotogrammi attuale, tipo 1/2,	 1/3, e così via. Ad esempio, se la frequenza attuale è 30 (29.97), utilizza 15 o 10.</p>
+				<li>Altre opzioni: alcuni compressori o codec forniscono opzioni specifiche per il codec. Dopo aver selezionato il compressore (codec), verranno visualizzate tutte le opzioni speciali.
+			</ol>
+		</div>
+	</body>
+
+</html>

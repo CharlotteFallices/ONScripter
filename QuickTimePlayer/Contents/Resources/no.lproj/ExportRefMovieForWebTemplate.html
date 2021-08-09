@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime Pro - Eksporter for Internett - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1>Instruksjoner for publisering av <i>$(TITLE)</i> på webstedet ditt</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p>Du har eksportert <i>$(TITLE)</i> ved hjelp av QuickTime Pro. Her finner du informasjon som kan være til nytte når du skal legge ut filmen på webstedet ditt.</p>
+	<p>I den samme mappen som denne instruksjonsfilen i HTML-format ligger, har QuickTime Pro plassert forskjellige versjoner av filmen din optimalisert for levering over Internett. I den samme mappen finner du også en referansefilm som velger den versjonen som passer best til brukernes forskjellige enheter og tilkoblingshastigheter. Ved å inkludere denne referansefilmen på webstedet ditt kan du sikre at de som besøker websiden, får optimal videokvalitet.</p>
+	<p>Her er en forhåndsvisning (krever Internett-tilkobling):</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('Klikk for å spille av', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>Bruk følgende HTML-kode for å integrere filmen på siden.</p>
+	<h3>Viktige merknader:</h3>
+	<ul>
+		<li>For å kunne vise mediene på Internett må mediedelene (filmer, plakatbilder) plasseres på en offentlig tilgjengelig tjener.</li>
+		<li>URL-parameterne må endres hvis de forskjellige mediedelene befinner seg på andre steder enn websiden din.</li>
+		<li>Filmens URL-parametere må alltid peke til referansefilmen (<a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a>), ikke en kildefilm.</li>
+		<li>Referansefilmen må ligge i samme mappe som kildefilmene.</li>
+		<li>Navnet på kildefilmen kan ikke endres, men du kan endre navnet på referansefilmen (husk å endre navnet i HTML-koden også).</li>
+		<li>Vær oppmerksom på at du for å oppnå korrekt XHTML-validering må plassere <code>&lt;style&gt;</code>-taggen og den første <code>&lt;script&gt;</code>-taggen mellom <code>&lt;head&gt;</code>-taggene på siden.</li>
+	</ul>
+	</p>
+
+<p>Legg inn følgende kode mellom <code>&lt;head&gt;</code>-taggene på siden:</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p>Legg inn følgende kode mellom <code>&lt;body&gt;</code>-taggene på siden:</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('Klikk for å spille av', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>Eksportert:</h3>
+<ul>
+	<li>Referansefilm:
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Plakatbilde:
+		<ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Versjoner:
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

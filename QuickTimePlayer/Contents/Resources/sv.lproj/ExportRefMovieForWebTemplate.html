@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime Pro - Exportera f&ouml;r webben - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1>Anvisningar f&ouml;r postning av <i>$(TITLE)</i> p&aring; din webbplats</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p>Du har exporterat <i>$(TITLE)</i> med QuickTime Pro. F&ouml;ljande information hj&auml;lper dig att posta filmen p&aring; din webbplats.</p>
+	<p>I samma mapp som den h&auml;r HTML-filen med anvisningar har QuickTime placerat olika versioner av filmen som &auml;r optimerade f&ouml;r webbleverans. Det finns &auml;ven en referensfilm i mappen som v&auml;ljer b&auml;sta version f&ouml;r dina bes&ouml;kares olika enheter och anslutningshastigheter. Genom att l&auml;gga in denna referensfilm p&aring; HTML-sidan kan du se till att bes&ouml;kare f&aring;r b&auml;sta m&ouml;jliga videokvalitet p&aring; din webbplats.</p>
+	<p>H&auml;r finns en f&ouml;rhandsvisning (kr&auml;ver Internetanslutning):</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('Klicka här för att spela', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>Anv&auml;nd f&ouml;ljande HTML-kod till att b&auml;dda in filmen p&aring; webbsidan.</p>
+	<h3>Viktiga anm&auml;rkningar:</h3>
+	<ul>
+		<li>Om dina medier ska kunna visas p&aring; Internet m&aring;ste mediematerialet (filmer, vinjettbild) placeras p&aring; en server som alla kan komma &aring;t.</li>
+		<li>URL-parametrarna m&aring;ste &auml;ndras om dina mediefiler (filmer, vinjettbilder) ligger p&aring; en annan server &auml;n din webbsida.</li>
+		<li>Filmens URL-parametrar m&aring;ste alltid peka mot referensfilmen ( <a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a> ) och inte mot k&auml;llfilmen.</li>
+		<li>Referensfilmen m&aring;ste finnas i samma mapp som k&auml;llfilmerna.</li>
+		<li>K&auml;llfilmernas namn f&aring;r inte &auml;ndras, men du kan &auml;ndra namn p&aring; referensfilmer (kom ih&aring;g att &auml;ndra namn i HTML-koden ocks&aring;).</li>
+		<li>Om filen ska kunna valideras som XHTML, m&aring;ste taggen <code>&lt;style&gt;</code> och den f&ouml;rsta <code>&lt;script&gt;</code>-taggen finnas i sidans <code>&lt;head&gt;</code>-tagg.</li>
+	</ul>
+	</p>
+
+<p>Anv&auml;nd den h&auml;r koden i <code>&lt;head&gt;</code> p&aring; webbsidan:</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p>Anv&auml;nd den h&auml;r koden i <code>&lt;body&gt;</code> p&aring; webbsidan:</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('Klicka här för att spela', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>Exporterat:</h3>
+<ul>
+	<li>Referensfilm:
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Vinjettbild:
+		<ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Versioner:
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

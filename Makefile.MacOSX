@@ -9,6 +9,10 @@ INCS = `sdl-config --cflags` `smpeg-config --cflags`
 LIBS = `sdl-config --libs` `smpeg-config --libs` `freetype-config --libs` -lSDL_ttf -lSDL_image -lSDL_mixer -lbz2 -lm -ljpeg -framework CoreFoundation
 DEFS = -DMACOSX -DUSE_CDROM -DUTF8_CAPTION -DUTF8_FILESYSTEM
 
+# Add "-framework QuickTime" to the libraries ("LIBS") if it cannot work normally
+# But Apple terminated the support to the QuickTime Framework in macOS 10.15
+# Perhaps the AVFoundation Framework can make it well......have a good luck:)
+
 EXESUFFIX =
 OBJSUFFIX = .o
 

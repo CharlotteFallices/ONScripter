@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime Pro - Exporteren voor het web - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1>Instructies voor het plaatsen van <i>$(TITLE)</i> op uw website</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p>U hebt <i>$(TITLE)</i> geëxporteerd met QuickTime Pro. Hieronder vindt u informatie waarmee u de film op uw website kunt plaatsen.</p>
+	<p>In dezelfde map als dit HTML-bestand heeft QuickTime Pro verschillende versies van uw film geplaatst. Deze versies zijn geoptimaliseerd voor weergave op het web. In die map vindt u ook een film met verwijzingen, die de beste versie selecteert voor de verschillende apparaten en verbindingssnelheden van uw gebruikers. Door deze film met verwijzigingen aan uw HTML-pagina toe te voegen, zorgt u dat alle bezoekers van uw site kunnen genieten van optimale videokwaliteit.</p>
+	<p>Hier ziet u een voorvertoning (internetverbinding vereist):</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('Klik om af te spelen', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/nl/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>Gebruik de volgende HTML-code om de film aan uw webpagina toe te voegen.</p>
+	<h3>Belangrijke opmerkingen:</h3>
+	<ul>
+		<li>Om ervoor te zorgen dat uw media kunnen worden bekeken op het internet, moet uw mediamateriaal (films, posterbeeld) op een publiek toegankelijke server worden geplaastst.</li>
+		<li>De URL-parameters moeten worden gewijzigd als uw mediamateriaal zich op een andere locatie bevindt dan uw webpagina.</li>
+		<li>De URL-parameters van de film moeten altijd naar de film met verwijzingen (<a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a>) verwijzen en niet naar een bronfilm.</li>
+		<li>De film met verwijzingen moet in dezelfde map als de bronfilms blijven staan.</li>
+		<li>De namen van bronfilms kunnen niet worden gewijzigd, maar u kunt wel de naam van de film met verwijzingen aanpassen (vergeet niet de naam ook in de HTML-code aan te passen).</li>
+		<li>Om te worden herkend als XHTML, moeten de <code>&lt;style&gt;</code>-tag en de eerste <code>&lt;script&gt;</code>-tag binnen de <code>&lt;head&gt;</code>-tag van uw pagina worden geplaatst.</li>
+	</ul>
+	</p>
+
+<p>Gebruik deze code in de <code>&lt;head&gt;</code>-regel van uw webpagina:</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p>Gebruik deze code in de <code>&lt;body&gt;</code>-regel van uw webpagina:</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('Click to Play', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>Geëxporteerd:</h3>
+<ul>
+	<li>Film met verwijzingen:
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Posterbeeld:
+		<ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Versies:
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

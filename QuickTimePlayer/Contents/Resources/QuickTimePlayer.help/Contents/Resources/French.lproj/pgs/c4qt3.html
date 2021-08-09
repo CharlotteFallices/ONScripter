@@ -1,0 +1,41 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Personnalisation des réglages d’exportation vidéo</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="¨Prenez connaissance des options disponibles lorsque vous exportez une séquence avec QuickTime Player.">		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Aide QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="Icône de catégorie QuickTime" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Personnalisation des réglages d’exportation vidéo</h1>
+			</div>
+			<h4>Pour personnaliser les réglages vidéo lors d’une exportation :</h4>
+			<ol type="1">
+				<li value="1">Sélectionnez Fichier &gt; Exporter.
+				<li value="2">Choisissez un format de fichier dans le menu local Exporter.
+				<li value="3">Cliquez sur Options.
+				<li value="4">Dans la partie Vidéo de la zone de dialogue Réglages de la séquence, cliquez sur Réglages puis choisissez vos réglages.
+					<p>Type de compression : choisissez le compresseur vidéo (codec) que vous voulez utiliser pour compresser votre séquence. Pour obtenir le meilleur rapport qualité/débit (ou qualité/espace occupé), il est recommandé d’utiliser le codec H.264.</p>
+					<p>Débit : de manière générale, plus le débit (de lecture des données) est élevé, meilleure est la qualité vidéo, mais aussi plus volumineux est le fichier résultant. Dans la plupart des cas, il est conseillé de régler le débit en fonction de la manière dont sera visionnée votre séquence. Par exemple, pour effectuer une diffusion en continu sur une connexion à Internet par appel commuté, vous ne devez pas dépasser un débit de lecture d’environ 45 kbit/s (afin de laisser libre le reste de la bande passante pour le trafic réseau). Si le fichier doit être téléchargé par l’utilisateur avant la lecture, le débit peut être plus élevé (mais dans ce cas, un utilisateur de modem 56 K devra patienter plus longtemps avant que la lecture de la séquence débute). Le débit d’une séquence dépend également d’autres options de compression, telles que la fréquence d’images. Pour que le module de compression choisisse à votre place le débit approprié, sélectionnez Automatique.</p>
+					<p>Optimisé pour : dans ce menu local, choisissez la méthode de transmission voulue. Ce réglage indique au codec dans quelle plage le débit peut varier autour de sa valeur nominale. L’option n’est disponible que pour les compresseurs capables de définir une plage, comme H.264.</p>
+					<p>Images clés : de nombreux compresseurs recourent à la différenciation d’une image à l’autre pour compresser les images animées. La différenciation est un procédé qui consiste à déterminer les changements survenus entre une image initiale (appelée image clé) et les images suivantes. L’image clé contient la totalité des informations d’une image. Les images suivantes ne contiennent que les informations qui ont changé.</p>
+					<p>En fonction du type de compresseur utilisé, vous pouvez préciser la fréquence des images clés. Si vous ne possédez pas assez d’images clés, la qualité de votre séquence s’en ressentira car la plupart des images sont générées à partir d’autres. Cependant, un nombre d’images clés plus élevé aboutit à une séquence plus volumineuse ayant un débit accru. Avec certains compresseurs, une image clé supplémentaire est insérée automatiquement si l’image a été fortement modifiée d’une scène à l’autre. Une règle générale, pour une utilisation classique, consiste à définir une image clé toutes les 5 secondes (multipliez le nombre d’images par seconde par 5). Si vous créez une séquence qui devra être diffusée en continu sous protocole RTSP et si vous avez des doutes sur la fiabilité du débit du réseau (notamment sur Internet), vous aurez peut-être intérêt à augmenter la fréquence des images clés en la faisant passer à une toutes les 1 ou 2 secondes. Pour laisser le compresseur déterminer la fréquence optimale des images clés, sélectionnez Automatique.</p>
+				<li>Fréquence : la fréquence est le nombre d’images affichées par seconde. La norme américaine (NTSC) de vidéo définit une fréquence de 29,97 images par seconde (ips). La norme européenne (PAL), quant à elle, définit une fréquence de 25 ips. (Pour comparaison, la fréquence d’images du film sur pellicule est de 24 ips.) Les séquences QuickTime sont parfois crées à une fréquence inférieure pour limiter la sollicitation de la bande passante et de l’unité centrale.
+					<p>Les séquences dont la fréquence d’images est élevée offrent un meilleur rendu mais impliquent des fichiers volumineux. Si vous choisissez une fréquence inférieure à la fréquence actuelle de la séquence, la compression entraînera la suppression de certaines images. Si vous choisissez une fréquence supérieure à la fréquence actuelle de la séquence, des images de la séquence seront dupliquées (ce qui n’est pas recommandé, car cela augmente la taille du fichier sans rien ajouter à la qualité de la séquence). Au moment de choisir une fréquence, optez pour un diviseur simple de la fréquence actuelle, par exemple la moitié, le tiers, etc. Si, par exemple, la fréquence actuelle de la séquence est de 30 (29,97) images, utilisez 15 ou 10.</p>
+				<li>Autres options : certains compresseurs ou codecs proposent des options qui leur sont propres. Une fois un compresseur (codec) sélectionné, ces options spéciales apparaissent.
+			</ol>
+		</div>
+	</body>
+
+</html>

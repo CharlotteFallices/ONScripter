@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Anpassen der Einstellungen für den Videoexport</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Hier erfahren Sie mehr über die verfügbaren Video-Optionen beim Exportieren eines Films mit QuickTime-Player.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">QuickTime-Player-Hilfe </a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="QuickTime-Kategoriesymbol" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Anpassen der Einstellungen für den Videoexport</h1>
+			</div>
+			<h4>Gehen Sie wie folgt vor, um die Videoeinstellungen für den Export anzupassen:</h4>
+			<ol type="1">
+				<li value="1">Wählen Sie "Ablage" &gt; "Exportieren".
+				<li value="2">Wählen Sie ein Dateiformat aus dem Einblendmenü "Exportieren" aus.
+				<li value="3">Klicken Sie auf "Optionen".
+				<li value="4">Klicken Sie im Bereich "Video" des Dialogfensters "Filmeinstellungen" auf "Kompression" und wählen Sie die gewünschten Optionen aus.
+					<p>Komprimierungstyp:  Wählen Sie den Videokompressor (Codec), den Sie zum Komprimieren Ihres Videomaterials verwenden möchten. Für optimale Qualität bei geringster Datenrate (bzw. die kleinste Dateigröße) empfiehlt sich die Einstellung "H.264".</p>
+					<p>Datenrate (Bitrate):  Allgemein gilt: je höher die Datenrate, desto besser die Qualität, desto größer aber auch die Datei. Üblicherweise werden Sie eine Datenrate festlegen, die berücksichtigt, wie der Film wiedergegeben wird. Für das Streaming an Internet-Wählverbindungen begrenzen Sie die Datenrate z. B. auf ca. 45 Kilobit pro Sekunde, um noch Kapazität für den Netzwerkverkehr frei zu lassen. Wenn die Datei für die Wiedergabe geladen wird, kann die Datenrate auch höher sein (ein Benutzer mit einem 56K-Modem muss allerdings entsprechend länger warten, bis die Wiedergabe beginnt). Die Datenrate eines Films wird auch von anderen Komprimierungsoptionen beeinflusst, die Sie festlegen. Hierzu gehört beispielsweise die Bildrate. Wählen Sie "Automatisch", damit der Kompressor eine geeignete Datenrate auswählen kann.</p>
+					<p>Optimiert für:  Wählen Sie die gewünschte Bereitstellungsmethode aus dem Einblendmenü "Optimiert für". Diese Einstellung sagt dem Codec, wie stark die Datenrate im jeweiligen Bereich nach oben und unten variieren darf. Diese Option ist nur bei Kompressoren verfügbar, die Begrenzungen vorgeben können, z. B. H.264.</p>
+					<p>Keyframe-Optionen:   Viele Kompressoren arbeiten mit "Frame-Differenzierung" beim Komprimieren bewegter Bilder. Dieser Prozess ermittelt, welche Informationen sich zwischen dem ersten Bild (auch Basisbild oder Keyframe genannt) und den nachfolgenden Bildern geändert haben. Das Basisbild umfasst alle Informationen für ein bestimmtes Bild. Nachfolgende Bilder enthalten nur die Informationen, die sich geändert haben.</p>
+					<p>Abhängig vom verwendeten Kompressor können Sie festlegen, wie oft Basisbilder erscheinen sollen. Wenn nicht genügend Basisbilder vorhanden sind, ist die Qualität Ihres Films geringer, da die meisten Basisbilder aus anderen Basisbildern generiert werden. Ein Film, der eine große Anzahl von Basisbildern besitzt, ist jedoch viel umfangreicher und weist eine höhere Datenrate auf. Bei einigen Kompressoren wird automatisch ein zusätzliches Basisbild eingefügt, wenn zu viele Bildänderungen von einem Bild zum nächsten vorgenommen wurden. Gemäß einer nützlichen Faustregel empfiehlt es sich im Allgemeinen, alle 5 Sekunden ein Basisbild festzulegen (multiplizieren Sie den Wert für "Bilder pro Sekunde (fps)" mit 5). Wenn Sie eine Datei für das RTSP-Streaming erstellen und Bedenken hinsichtlich der Zuverlässigkeit des bereitstellenden Netzwerks haben (z. B. das öffentlich zugängliche Internet), empfiehlt es sich ggf., die Keyframe-Frequenz auf ein Basisbild (einen Keyframe) alle 1 oder 2 Sekunden zu erhöhen. Wählen Sie die Option "Automatisch", wenn Sie die Auswahl des Keyframe-Intervalls dem Kompressor überlassen möchten.</p>
+				<li>Bildrate:  Als Bildrate bezeichnet man die Anzahl der einzelnen Bilder, die pro Sekunde gezeigt werden. Standardmäßiges (NTSC) Videomaterial hat eine Bildrate von 29,97 Bilder pro Sekunde (fps). Die standardmäßige Bildrate für Film ist 24 Bilder pro Sekunde (fps). Die standardmäßige europäische Bildrate (PAL) beträgt 25 Bilder pro Sekunde (fps). QuickTime-Filme werden in einigen Fällen aufgrund von Bandbreiten- und CPU-Anforderungen mit einer geringeren Bildrate erstellt.
+					<p>Filme mit höheren Bildraten weisen eine bessere Bildqualität auf, sind jedoch deutlich größer. Wenn Sie einen niedrigeren als den derzeit für den Film festgelegten Wert wählen, werden Bilder gelöscht. Wenn Sie einen Wert wählen, der höher ist als die aktuelle Bildrate des Films, werden vorhandene Bilder dupliziert (davon wird abgeraten, da damit nur die Dateigröße zunimmt, aber nicht die Qualität). Beim Auswählen der Bildrate empfiehlt es sich, eine Rate zu wählen, die durch die ursprüngliche Rate teilbar ist (also 1/2, 1/3, usw.). Wenn Sie derzeit die Bildrate 30 (29,97) verwenden, sollten Sie 15 oder 10 verwenden.</p>
+				<li>Andere Optionen:  Manche Kompressoren oder Codecs bieten Optionen, die spezifisch für den jeweiligen Codec sind. Solche speziellen Optionen werden nach dem Auswählen eines Kompressors (Codecs) angezeigt.
+			</ol>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>QuickTime Pro - Export für das Internet - $(TITLE)</title>
+	<script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+	<script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+	<link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" />
+</head>
+<body>
+
+<table>
+	<tr>
+		<td><img src="http://images.apple.com/downloads/images/essentials_quicktime20070611.png" /></td>
+		<td><h1>Anweisungen zum Posten von <i>$(TITLE)</i> auf Ihrer Website</h1></td>
+	</tr>
+</table>
+
+<div id="summary">
+	<p> Sie haben <i>$(TITLE)</i> mit QuickTime Pro exportiert. Die folgenden Informationen helfen Ihnen dabei, diesen Film auf Ihre Website zu posten.</p>
+	<p>Im gleichen Ordner, in dem sich auch diese Anleitung (HTML-Datei) befindet, wurden von QuickTime Pro verschiedene für die Internetübertragung optimierte Versionen Ihres Films gesichert. Ebenfalls in diesen Ordner befindet sich ein Referenzfilm, der die beste Version Ihres Films für die Benutzer auswählt, je nach Gerät und Verbindungsgeschwindigkeit. Indem Sie diesen Referenzfilm in Ihre HTML-Seite integrieren, können Sie hochwertige Videos auf Ihrer Website anbieten.</p>
+	<p>Hier eine Vorschau (Internetverbindung erforderlich):</p>
+</div>
+
+<script type="text/javascript"><!--
+	QT_WritePoster_XHTML('Für Wiedergabe klicken', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//-->
+</script>
+<noscript>
+<object width="$(WIDTH)" height="$(HEIGHT)" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$(POSTER_IMAGE_URL_ESCAPED)" />
+	<param name="href" value="$(REF_MOVIE_URL_ESCAPED)" />
+	<param name="target" value="myself" />
+	<param name="controller" value="false" />
+	<param name="autoplay" value="false" />
+	<param name="scale" value="aspect" />
+	<embed width="$(WIDTH)" height="$(HEIGHT)" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+		src="$(POSTER_IMAGE_URL_ESCAPED)"
+		href="$(REF_MOVIE_URL_ESCAPED)"
+		target="myself"
+		controller="false"
+		autoplay="false"
+		scale="aspect">
+	</embed>
+</object>
+</noscript>
+
+<div id="textembed">
+	<p>Verwenden Sie den folgenden HTML-Code, um Ihren Film in Ihre Webseite einzubetten.</p>
+	<h3>Wichtige Hinweise:</h3>
+	<ul>
+		<li> Damit Ihre Medien im Internet sichtbar sind, müssen die Medien (Filme, Titelbild) auf einem öffentlich zugänglichen Server abgelegt werden.</li>
+		<li>Die URL-Parameter müssen verändert werden, falls die Medien von einem anderen Ort als Ihrer Webseite bereitgestellt werden.</li>
+		<li>Die URL-Parameter des Films müssen statt zum Quellfilm immer zum Referenzfilm (<a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a>) führen.</li>
+		<li>Der Referenzfilm muss sich immer in dem Ordner befinden, in dem sich auch die Quellfilme befinden.</li>
+		<li>Sie können die Namen der Quellfilme nicht ändern, aber Sie können den Namen des Referenzfilms ändern (vergessen Sie dabei nicht, den Namen ebenfalls im HTML-Code zu ändern).</li>
+		<li>Bitte achten Sie darauf, dass die Webseite im XHTML-Format vorliegt. Das <code>&lt;style&gt;</code>-Tag und das erste <code>&lt;script&gt;</code>-Tag sollten sich innerhalb des <code>&lt;head&gt;</code>-Tag Ihrer Seite befinden.</li>
+	</ul>
+	</p>
+
+<p>Verwenden Sie diesen Code für den <code>&lt;head&gt;</code>-Bereich Ihrer Webseite:</p>
+<textarea rows="5" cols="80">
+&lt;script src="http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="http://www.apple.com/library/quicktime/scripts/qtp_library.js" language="JavaScript" type="text/javascript"&gt;&lt;/script&gt;
+&lt;link href="http://www.apple.com/library/quicktime/stylesheets/qtp_library.css" rel="StyleSheet" type="text/css" /&gt;
+</textarea>
+
+<p> Verwenden Sie diesen Code für den <code>&lt;body&gt;</code>-Bereich Ihrer Webseite:</p>
+<textarea rows="40" cols="80">
+&lt;script type=&quot;text/javascript&quot;&gt;&lt;!--
+	QT_WritePoster_XHTML('Click to Play', '$(POSTER_IMAGE_JS_ESCAPED)',
+		'$(REF_MOVIE_JS_ESCAPED)',
+		'$(WIDTH)', '$(HEIGHT)', '',
+		'controller', 'true',
+		'autoplay', 'true',
+		'bgcolor', 'black',
+		'scale', 'aspect');
+//--&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;object width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; classid=&quot;clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B&quot; codebase=&quot;http://www.apple.com/qtactivex/qtplugin.cab&quot;&gt;
+	&lt;param name=&quot;src&quot; value=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;href&quot; value=&quot;$(REF_MOVIE_URL_ESCAPED)&quot; /&gt;
+	&lt;param name=&quot;target&quot; value=&quot;myself&quot; /&gt;
+	&lt;param name=&quot;controller&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;autoplay&quot; value=&quot;false&quot; /&gt;
+	&lt;param name=&quot;scale&quot; value=&quot;aspect&quot; /&gt;
+	&lt;embed width=&quot;$(WIDTH)&quot; height=&quot;$(HEIGHT)&quot; type=&quot;video/quicktime&quot; pluginspage=&quot;http://www.apple.com/quicktime/download/&quot;
+		src=&quot;$(POSTER_IMAGE_URL_ESCAPED)&quot;
+		href=&quot;$(REF_MOVIE_URL_ESCAPED)&quot;
+		target=&quot;myself&quot;
+		controller=&quot;false&quot;
+		autoplay=&quot;false&quot;
+		scale=&quot;aspect&quot;&gt;
+	&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;
+</textarea>
+</div>
+
+<div id="exportlog">
+<h3>Exportiert:</h3>
+<ul>
+	<li>Referenzfilm:
+		<ul><li><a href="$(REF_MOVIE_URL_ESCAPED)">$(REF_MOVIE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Titelbild:
+		<ul><li><a href="$(POSTER_IMAGE_URL_ESCAPED)">$(POSTER_IMAGE_HTML_ESCAPED)</a></li></ul>
+	</li>
+	<li>Versionen:
+		<ul>$(EXPORT_NAMES)
+		</ul>
+	</li>
+</ul>
+</div>
+
+</body>
+</html>

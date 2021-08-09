@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Como personalizar os ajustes de exportação de vídeo</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Informações sobre as opções de vídeo disponíveis ao exportar um filme com o QuickTime Player".>
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">Ajuda QuickTime Player</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="Ícone da categoria do QuickTime" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Como personalizar os ajustes de exportação de vídeo</h1>
+			</div>
+			<h4>Para personalizar os ajustes de vídeo para a exportação:</h4>
+			<ol type="1">
+				<li value="1">Escolha Arquivo &gt; Exportar.
+				<li value="2">Escolha um formato de arquivo a partir do menu local Export.
+				<li value="3">Clique em Opções.
+				<li value="4">Na seção Vídeo da caixa de diálogo Ajustes de Filme, clique em Ajustes e escolha os ajustes.
+					<p>Tipo de Compressão:  escolha o compressor de vídeo (codec) que deseja usar para comprimir seu vídeo. Para a melhor qualidade com a menor taxa de dados (ou o menor arquivo), H.264 é recomendado.</p>
+					<p>Data rate (bit rate):  em geral, quanto maior a taxa de dados melhor a qualidade, mas maior o arquivo. Na maioria dos casos, é melhor definir a taxa de dados com base na maneira como seu filme será exibido. Por exemplo, para transmitir em tempo real para conexões telefônicas à Internet, limite a taxa de dados a aproximadamente 45 kilobits por segundo, para que haja banda para o tráfego da rede. Se o arquivo for descarregado antes de ser reproduzido, a taxa de dados pode ser mais alta (no entanto, um usuário de um modem 56K terá de esperar por mais tempo até a que a reprodução se inicie). A taxa de dados de um filme também é afetada por outras opções de compressão que você ajustar, tal como a velocidade de projeção. Para deixar que o compressor escolha uma taxa de dados adequada, selecione Automático.</p>
+					<p>Otimizado para:  escolha como o arquivo será enviado no menu local "Otimizado para". Esse ajuste informa ao codec quanto a taxa de dados pode variar acima e abaixo da taxa de dados escolhida. Esta opção está disponível apenas para compressores que podem aplicar limites, como o H.264.</p>
+					<p>Opções do Quadro-chave:  muitos compressores usam a "diferenciação de quadros" para comprimir imagens em movimento. A diferenciação de quadros é o processo pelo qual se determina a informação que variou entre um quadro inicial (chamado "quadro-chave") e os quadros subseqüentes. O quadro-chave contém toda a informação de uma imagem. Os quadros subseqüentes contêm somente a informação que variou.</p>
+					<p>Dependendo do compressor que você utilize, você pode especificar com que freqüência deseja que ocorram os quadros-chave. Se você não dispuser de quadros-chave suficientes, a qualidade do seu filme talvez seja mais baixa, porque a maioria dos quadros será gerada a partir de outros. No entanto, se você aumentar a quantidade de quadros chave, o filme será maior e com uma maior taxa de dados. Em alguns compressores, se a imagem tiver mudado muito de um quadro para o quadro subseqüente, um quadro-chave adicional é inserido automaticamente. Uma boa regra para uso geral é ter um quadro-chave a cada 5 segundos (multiplique os quadros por segundo por 5). Se estiver cirando um arquivo para transmissão em tempo real por RTSP e tem preocupações quanto à confiabilidade da rede (como a Internet pública), pode aumentar a freqüência dos quadros-chave para um quadro-chave a cada 1 ou 2 segundos. Para deixar que o compressor escolha o intervalo entre os quadros-chave, selecione Automático.</p>
+				<li>Velocidade de Projeção:  a velocidade de projeção é o número de imagens que são exibidas por segundo. Um vídeo padrão (NTSC) possui uma velocidade de projeção de 29,97 quadros por segundo (fps) e o padrão de um filme é 24 quadros por segundo (fps). O padrão europeu (PAL) é de 25 quadros por segundo (qps). Os filmes QuickTime às vezes são criados com uma taxa de quadros mais baixa para reduzir a largura de banda e os requisitos da CPU.
+					<p>Os filmes com velocidades de projeção mais altas exibem movimentos com melhor qualidade, no entanto, o tamanho de seus arquivos é maior. Se você escolher uma taxa de quadros mais baixa do que a taxa de quadros atual do filme, alguns quadros serão apagados. Se escolher um número mais alto do que a taxa de quadros atual do filme, os quadros existentes serão duplicado (não é recomendado, pois aumenta o tamanho do arquivo, sem melhorar a qualidade). Ao escolher uma velocidade de projeção, utilize uma fração simples de sua taxa de quadros atual, tal como 1/2, 1/3 etc. Por exemplo, se a taxa de quadros atual é de 30 (29,97), use 15 ou 10.</p>
+				<li>Outras opções:  alguns compressores ou codecs oferecem opções específicas ao codec. Após escolher um compressor (codec), essas opções especiais aparecem.
+			</ol>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AudioSettings</key>
+		<dict>
+			<key>DiskFullWarningMB</key>
+			<integer>50</integer>
+			<key>NativeFormat</key>
+			<true/>
+		</dict>
+		<key>Description</key>
+		<string>qtpCaptureNativeDescription</string>
+		<key>Identifier</key>
+		<string>QTPCapturePresetIdentifierDeviceNative</string>
+		<key>Name</key>
+		<string>qtpCaptureNative</string>
+		<key>VideoSettings</key>
+		<dict>
+			<key>CompressionData</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAACb3NlYW4AAAABAAAAAgAAAAAAAAGadmlk
+			ZQAAAAEAAAAPAAAAAAAAACJzcHRsAAAAAQAAAAAAAAAAanBlZwAA
+			AAAAAAAAAgAAAAAgdHBybAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAACRkcmF0AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			ABVtcHNvAAAAAQAAAAAAAAAAAAAAABhtZnJhAAAAAQAAAAAAAAAA
+			AAAAAAAAABhwc2ZyAAAAAQAAAAAAAAAAAAAAAAAAABViZnJhAAAA
+			AQAAAAAAAAAAAAAAABZtcGVzAAAAAQAAAAAAAAAAAAAAAAAoaGFy
+			ZAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmVu
+			ZHMAAAABAAAAAAAAAAAAAAAAABZjZmxnAAAAAQAAAAAAAAAAAEQA
+			AAAYY21mcgAAAAEAAAAAAAAAAGFwcGwAAAAUY2x1dAAAAAEAAAAA
+			AAAAAAAAABRjZGVjAAAAAQAAAAAAAAAAAAAAHHZlcnMAAAABAAAA
+			AAAAAAAAAwAcAAEAAAAAAMFpc2l6AAAAAQAAAAYAAAAAAAAAGGl3
+			ZHQAAAABAAAAAAAAAAAAAAAAAAAAGGloZ3QAAAABAAAAAAAAAAAA
+			AAAAAAAANGNsYXAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAABxwYXNwAAAAAQAAAAAAAAAAAAAA
+			AAAAAAAAAAAYc2NhbQAAAAEAAAAAAAAAAAAAAAAAAAAVZGludAAA
+			AAEAAAAAAAAAAAA=
+			</data>
+			<key>DiskFullWarningMB</key>
+			<integer>100</integer>
+			<key>NativeFormat</key>
+			<false/>
+		</dict>
+	</dict>
+</array>
+</plist>

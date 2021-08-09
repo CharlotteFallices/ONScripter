@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+		<title>Customizing Video Export Settings</title>
+		<meta name="generator" content="FrmSS CSS 2.0c">
+		<meta name="dategen" content="04/13/2006 15:50:28">
+		<meta name="description" content="Learn about the video options available when you export a movie with QuickTime Player 7.">
+		<link href="../sty/task_style_ss.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<a name="qtmp4export"></a>
+		<div id="banner">
+			<div id="ServerAdminHelp">
+				<a class="bread" href="../QuickTimeHelp.html">QuickTime Player 7 Help</a></div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../../Shared/xicnqt.gif" alt="QuickTime Category Icon" height="32" width="32"></div>
+			<div id="pagetitle">
+				<h1>Customizing Video Export Settings</h1>
+			</div>
+			<h4>To customize video settings for export:</h4>
+			<ol type="1">
+				<li value="1">Choose File &gt; Export.
+				<li value="2">Choose a file format from the Export pop-up menu.
+				<li value="3">Click Options.
+				<li value="4">In the Video area of the Movie Settings dialog, click Settings, and choose your settings.
+					<p>Compression type:  Choose the video compressor (codec) you want to use to compress your video. For the highest quality at the lowest data rate (or the smallest file), H.264 is recommended.</p>
+					<p>Data rate (bit rate):  In general, the higher the data rate, the better the quality, but the bigger the file. In most cases, you'll want to set a data rate based on the way your movie will be viewed. For example, for streaming to Internet dialup connections, limit the data rate to around 45 kilobits per second to leave room for network traffic. If the file will be downloaded for playback, the data rate can be higher (a 56K modem user, however, has longer to wait before playback begins). The data rate of a movie is also affected by other compression options you set, such as the frame rate. To let the compressor choose an appropriate data rate, select Automatic.</p>
+					<p>Optimized for:  Choose your intended delivery method from the &quot;Optimized for&quot; pop-up menu. This setting informs the codec how much the data rate can vary above and below the data rate you choose. This option is available only for compressors that can apply limits, such as H.264.</p>
+					<p>Key frame options:  Many compressors use &quot;frame differencing&quot; to compress moving images. Frame differencing is the process of determining what information has changed from a starting frame (called a &quot;key frame&quot;) to subsequent frames. The key frame contains all of the information for an image. Subsequent frames contain only the information that has changed.</p>
+					<p>Depending on the compressor you use, you can specify how often you want key frames to occur. If you don't have enough key frames, the quality of your movie might be lower because most frames are generated from others. However, more key frames result in a larger movie with a higher data rate. With some compressors, an additional key frame is inserted automatically if too much of the image has changed from one frame to the next. A good rule of thumb for general use is to have one key frame every 5 seconds (multiply the frames per second by 5). If you are creating a file for RTSP streaming and have concerns about the reliability of the delivery network (as with the public Internet), you may want to increase key frame frequency to one key frame every 1 or 2 seconds. To let the compressor choose the key frame interval, select Automatic.</p>
+				<li>Frame rate:  Frame rate is the number of individual images shown every second. Standard (NTSC) video has a frame rate of 29.97 frames per second (fps), and the standard for film is 24 fps. The European standard (PAL) is 25 fps. QuickTime movies are sometimes created with a slower frame rate to reduce bandwidth and CPU requirements.
+					<p>Movies with higher frame rates show motion better but have larger file sizes. If you choose a frame rate that's lower than the movie's current frame rate, frames will be deleted. If you choose a number that's higher than the movie's current frame rate, existing frames will be duplicated (not recommended, since it increases file size without improving quality). When choosing a frame rate, use a simple fraction of your current frame rate, such as 1/2, 1/3, and so on. For example, if your current frame rate is 30 (29.97), use 15 or 10.</p>
+				<li>Other options:  Some compressors or codecs offer options specific to the codec. After you select a compressor (codec), any special options appear.
+			</ol>
+		</div>
+	</body>
+
+</html>

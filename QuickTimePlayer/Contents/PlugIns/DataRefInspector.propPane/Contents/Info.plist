@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>DataRefInspector</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.DataRefInspector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Files/Data Refs</string>
+	<key>CFBundlePackageType</key>
+	<string>????</string>
+	<key>CFBundleShortVersionString</key>
+	<string>7.6.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>7.6.6</string>
+	<key>NSMainNibFile</key>
+	<string>DataRef</string>
+	<key>NSPrincipalClass</key>
+	<string>QTPDataRefInspector</string>
+	<key>QTPropertyInspectorName</key>
+	<string>Resources</string>
+	<key>QTPropertyInspectorSortOrder</key>
+	<string>QTOrderFirst</string>
+</dict>
+</plist>
